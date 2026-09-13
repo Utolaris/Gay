@@ -4,8 +4,9 @@ Independent Intervention API for male-biased courtship-circuit experiments on
 the full MaleCNS v1.0 bounded LIF network (166,606 neurons).
 
 Pre-registered baselines (WT vs mAL output silence) reproduce upstream
-follow-up P1 counts. Exploratory parameter searches are labeled separately and
-do not replace those baselines.
+follow-up P1 counts. A post-hoc search for conditions that make male P1 >
+female P1 is documented in [EXPLORATORY.md](EXPLORATORY.md); it does not
+replace those baselines.
 
 ## Setup
 
