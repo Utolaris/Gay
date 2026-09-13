@@ -1,0 +1,246 @@
+:root {
+  --void: #070a10;
+  --ink: #e8eef5;
+  --haze: #6b7a8c;
+  --line: #1c2633;
+  --stim: #5eebff;
+  --drive: #7cffb2;
+  --brake: #ff6b9d;
+  --p1: #ffd166;
+  --mal: #ff6b9d;
+  --panel: rgba(7, 10, 16, 0.72);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  height: 100%;
+  background: var(--void);
+  color: var(--ink);
+  font-family: system-ui, "Segoe UI", sans-serif;
+  overflow: hidden;
+}
+
+#stage {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.hud {
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.hud > * {
+  pointer-events: auto;
+}
+
+.top {
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.1rem 1.25rem;
+  border-bottom: 1px solid var(--line);
+  background: linear-gradient(to bottom, rgba(7, 10, 16, 0.9), transparent);
+}
+
+.eyebrow {
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--haze);
+}
+
+h1 {
+  margin: 0.2rem 0 0;
+  font-size: 1.15rem;
+  font-weight: 550;
+  letter-spacing: -0.02em;
+}
+
+.left {
+  top: 5.5rem;
+  left: 1rem;
+  width: min(17.5rem, calc(100vw - 2rem));
+  padding: 0.85rem 0.95rem;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  backdrop-filter: blur(10px);
+}
+
+.bottom {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 1.25rem 1rem;
+  border-top: 1px solid var(--line);
+  background: linear-gradient(to top, rgba(7, 10, 16, 0.92), transparent);
+}
+
+section + section {
+  margin-top: 0.95rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--line);
+}
+
+h2 {
+  margin: 0 0 0.45rem;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--haze);
+}
+
+.seg {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.seg button {
+  appearance: none;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink);
+  text-align: left;
+  padding: 0.55rem 0.6rem;
+  font: inherit;
+  font-size: 0.82rem;
+  cursor: pointer;
+}
+
+.seg button[aria-selected="true"] {
+  border-color: var(--stim);
+  color: var(--stim);
+  box-shadow: inset 2px 0 0 var(--stim);
+}
+
+.seg button:hover,
+.seg button:focus-visible {
+  border-color: var(--haze);
+  outline: none;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.btn {
+  appearance: none;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink);
+  padding: 0.35rem 0.7rem;
+  font: inherit;
+  font-size: 0.8rem;
+  cursor: pointer;
+  min-height: 2rem;
+}
+
+.btn:hover,
+.btn:focus-visible {
+  border-color: var(--stim);
+  color: var(--stim);
+  outline: none;
+}
+
+input[type="range"] {
+  width: 100%;
+  accent-color: var(--stim);
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.82rem;
+  color: var(--ink);
+  margin: 0.25rem 0;
+  cursor: pointer;
+}
+
+.legend {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.78rem;
+  color: var(--haze);
+}
+
+.legend li {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0.22rem 0;
+}
+
+.legend i {
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  background: var(--c);
+  box-shadow: 0 0 8px var(--c);
+}
+
+.mono {
+  font-family: ui-monospace, "SF Mono", Consolas, monospace;
+  font-size: 0.75rem;
+  color: var(--haze);
+}
+
+.meta {
+  text-align: right;
+  max-width: 16rem;
+  line-height: 1.45;
+}
+
+.stats {
+  color: var(--ink);
+  margin-bottom: 0.35rem;
+}
+
+.note {
+  margin: 0;
+  font-size: 0.72rem;
+  color: var(--haze);
+}
+
+@media (max-width: 720px) {
+  .left {
+    top: auto;
+    bottom: 5.5rem;
+    width: calc(100vw - 2rem);
+  }
+
+  .top {
+    flex-direction: column;
+  }
+
+  .meta {
+    text-align: left;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+  }
+}

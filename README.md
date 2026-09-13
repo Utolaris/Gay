@@ -32,6 +32,9 @@ local interventions: [BC_HOP3_PROTOCOL.md](BC_HOP3_PROTOCOL.md),
 Sign adjudication (is b/c output excitatory or inhibitory?):
 [BC_SIGN_ADJUDICATION.md](BC_SIGN_ADJUDICATION.md).
 
+Interactive Three.js viewer of b/c stimulation (Bun + Vite):
+[bc-viz/](bc-viz/) — `export_bc_viz.py` writes `bc-viz/public/data/trial.json`.
+
 ## Setup
 
 ```sh

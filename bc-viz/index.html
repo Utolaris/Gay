@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AN09B017b/c · stimulation field</title>
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="stage"></canvas>
+      <header class="hud top">
+        <div class="brand">
+          <span class="eyebrow">MaleCNS v1.0 · bounded LIF</span>
+          <h1>AN09B017b/c stimulation</h1>
+        </div>
+        <div class="meta mono" id="meta-line">loading…</div>
+      </header>
+
+      <aside class="hud left">
+        <section>
+          <h2>Condition</h2>
+          <div class="seg" id="conditions" role="tablist"></div>
+        </section>
+        <section>
+          <h2>Time</h2>
+          <div class="row">
+            <button id="play" class="btn" type="button" aria-pressed="true">Pause</button>
+            <span class="mono" id="t-label">0 ms</span>
+          </div>
+          <input id="scrub" type="range" min="0" max="29" value="0" step="1" aria-label="time bin" />
+        </section>
+        <section>
+          <h2>View</h2>
+          <label class="check"><input type="checkbox" id="show-edges" checked /> edge pulses</label>
+          <label class="check"><input type="checkbox" id="dim-idle" checked /> dim idle cells</label>
+          <label class="check"><input type="checkbox" id="auto-rotate" checked /> slow orbit</label>
+        </section>
+        <section>
+          <h2>Legend</h2>
+          <ul class="legend">
+            <li><i style="--c:#5eebff"></i>AN09B017b/c</li>
+            <li><i style="--c:#ffd166"></i>P1 readout</li>
+            <li><i style="--c:#ff6b9d"></i>mAL</li>
+            <li><i style="--c:#8b9bb4"></i>other cells</li>
+            <li><i style="--c:#7cffb2"></i>active spike</li>
+          </ul>
+        </section>
+      </aside>
+
+      <footer class="hud bottom">
+        <div class="stats mono" id="stats"></div>
+        <p class="note">
+          Model sensitivity · direct b/c Poisson drive · female pathway untouched · not behavioral preference
+        </p>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
