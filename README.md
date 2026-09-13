@@ -21,6 +21,9 @@ E2 male excitatory relay amplification: [E2_PROTOCOL.md](E2_PROTOCOL.md),
 E3–E8 mechanism grid: [E3_E8_PROTOCOL.md](E3_E8_PROTOCOL.md),
 [E3_E8_RESULTS.md](E3_E8_RESULTS.md), `e3-e8-results.json`.
 
+LgLG6 vs LgLG5 signed pathway decomposition (why female effective drive is
+stronger): [LGLG_PATHWAY_REPORT.md](LGLG_PATHWAY_REPORT.md).
+
 ## Setup
 
 ```sh

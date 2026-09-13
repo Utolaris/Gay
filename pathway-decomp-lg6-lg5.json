@@ -1,0 +1,1044 @@
+{
+  "LgLG6_hops": [
+    {
+      "hop": 1,
+      "n_pre": 16,
+      "exc_syn": 10003.0,
+      "inh_syn": 0.0,
+      "exc_edges": 720,
+      "inh_edges": 0,
+      "n_targets": 139,
+      "targets_truncated": false,
+      "mean_fanout": 45.0,
+      "median_fanout": 49.0,
+      "max_fanout": 62,
+      "target_types_top": [
+        [
+          "LgLG6",
+          16
+        ],
+        [
+          "LgLG5",
+          9
+        ],
+        [
+          "LgLG1a",
+          6
+        ],
+        [
+          "IN04B079",
+          4
+        ],
+        [
+          "IN01B065",
+          4
+        ],
+        [
+          "IN01A040",
+          3
+        ],
+        [
+          "IN11A005",
+          3
+        ],
+        [
+          "IN09B046",
+          3
+        ],
+        [
+          "AN17A024",
+          2
+        ],
+        [
+          "AN05B050_c",
+          2
+        ],
+        [
+          "AN05B023d",
+          2
+        ],
+        [
+          "AN05B035",
+          2
+        ]
+      ]
+    },
+    {
+      "hop": 2,
+      "n_pre": 139,
+      "exc_syn": 153410.0,
+      "inh_syn": 219017.0,
+      "exc_edges": 18518,
+      "inh_edges": 29877,
+      "n_targets": 12372,
+      "targets_truncated": false,
+      "mean_fanout": 358.44604316546764,
+      "median_fanout": 266.0,
+      "max_fanout": 1376,
+      "target_types_top": [
+        [
+          "?",
+          281
+        ],
+        [
+          "LgLG1a",
+          135
+        ],
+        [
+          "LgLG1b",
+          134
+        ],
+        [
+          "LgLG2",
+          130
+        ],
+        [
+          "LgLG3",
+          124
+        ],
+        [
+          "WG1",
+          96
+        ],
+        [
+          "WG4",
+          96
+        ],
+        [
+          "WG3",
+          96
+        ],
+        [
+          "SNta29",
+          86
+        ],
+        [
+          "WG2",
+          69
+        ],
+        [
+          "SNxx33",
+          27
+        ],
+        [
+          "BM_Taste",
+          26
+        ]
+      ]
+    },
+    {
+      "hop": 3,
+      "n_pre": 12372,
+      "exc_syn": 12897847.0,
+      "inh_syn": 9504144.0,
+      "exc_edges": 2016773,
+      "inh_edges": 1504360,
+      "n_targets": 5000,
+      "targets_truncated": true,
+      "mean_fanout": 306.8648561267378,
+      "median_fanout": 229.0,
+      "max_fanout": 7710,
+      "target_types_top": [
+        [
+          "Dm6",
+          46
+        ],
+        [
+          "MeLo8",
+          39
+        ],
+        [
+          "Dm13",
+          37
+        ],
+        [
+          "lLN1_bc",
+          25
+        ],
+        [
+          "Dm19",
+          25
+        ],
+        [
+          "?",
+          23
+        ],
+        [
+          "LT51",
+          21
+        ],
+        [
+          "TmY14",
+          15
+        ],
+        [
+          "DA1_lPN",
+          13
+        ],
+        [
+          "IPC",
+          13
+        ],
+        [
+          "LPLC1",
+          13
+        ],
+        [
+          "LPT114",
+          13
+        ]
+      ]
+    },
+    {
+      "hop": 4,
+      "n_pre": 5000,
+      "exc_syn": 9865759.0,
+      "inh_syn": 9891010.0,
+      "exc_edges": 1280126,
+      "inh_edges": 1471489,
+      "n_targets": 5000,
+      "targets_truncated": true,
+      "mean_fanout": 642.1772,
+      "median_fanout": 428.0,
+      "max_fanout": 11203,
+      "target_types_top": [
+        [
+          "L2",
+          56
+        ],
+        [
+          "Dm6",
+          42
+        ],
+        [
+          "MeLo8",
+          38
+        ],
+        [
+          "Dm13",
+          36
+        ],
+        [
+          "Dm19",
+          27
+        ],
+        [
+          "lLN1_bc",
+          25
+        ],
+        [
+          "?",
+          22
+        ],
+        [
+          "LT51",
+          21
+        ],
+        [
+          "Dm18",
+          16
+        ],
+        [
+          "TmY14",
+          14
+        ],
+        [
+          "VS",
+          13
+        ],
+        [
+          "DA1_lPN",
+          13
+        ]
+      ]
+    }
+  ],
+  "LgLG5_hops": [
+    {
+      "hop": 1,
+      "n_pre": 13,
+      "exc_syn": 6045.0,
+      "inh_syn": 0.0,
+      "exc_edges": 519,
+      "inh_edges": 0,
+      "n_targets": 98,
+      "targets_truncated": false,
+      "mean_fanout": 39.92307692307692,
+      "median_fanout": 41.0,
+      "max_fanout": 52,
+      "target_types_top": [
+        [
+          "LgLG5",
+          13
+        ],
+        [
+          "LgLG6",
+          4
+        ],
+        [
+          "IN04B079",
+          3
+        ],
+        [
+          "LgLG1a",
+          3
+        ],
+        [
+          "IN01B065",
+          3
+        ],
+        [
+          "AN05B023d",
+          2
+        ],
+        [
+          "AN05B035",
+          2
+        ],
+        [
+          "AN09B017a",
+          2
+        ],
+        [
+          "AN09B017e",
+          2
+        ],
+        [
+          "AN09B017d",
+          2
+        ],
+        [
+          "AN05B023a",
+          2
+        ],
+        [
+          "IN05B011b",
+          2
+        ]
+      ]
+    },
+    {
+      "hop": 2,
+      "n_pre": 98,
+      "exc_syn": 107805.0,
+      "inh_syn": 193117.0,
+      "exc_edges": 14945,
+      "inh_edges": 24141,
+      "n_targets": 10995,
+      "targets_truncated": false,
+      "mean_fanout": 439.3469387755102,
+      "median_fanout": 435.0,
+      "max_fanout": 2528,
+      "target_types_top": [
+        [
+          "?",
+          243
+        ],
+        [
+          "LgLG3",
+          147
+        ],
+        [
+          "LgLG1a",
+          135
+        ],
+        [
+          "LgLG1b",
+          134
+        ],
+        [
+          "LgLG2",
+          130
+        ],
+        [
+          "WG1",
+          96
+        ],
+        [
+          "WG4",
+          96
+        ],
+        [
+          "WG3",
+          96
+        ],
+        [
+          "LC9",
+          81
+        ],
+        [
+          "WG2",
+          74
+        ],
+        [
+          "SNta29",
+          55
+        ],
+        [
+          "LgAG1",
+          25
+        ]
+      ]
+    },
+    {
+      "hop": 3,
+      "n_pre": 10995,
+      "exc_syn": 11465462.0,
+      "inh_syn": 8947861.0,
+      "exc_edges": 1829995,
+      "inh_edges": 1437476,
+      "n_targets": 5000,
+      "targets_truncated": true,
+      "mean_fanout": 324.2424738517508,
+      "median_fanout": 240.0,
+      "max_fanout": 8627,
+      "target_types_top": [
+        [
+          "MeLo8",
+          39
+        ],
+        [
+          "Dm13",
+          38
+        ],
+        [
+          "lLN1_bc",
+          25
+        ],
+        [
+          "?",
+          23
+        ],
+        [
+          "LT51",
+          21
+        ],
+        [
+          "TmY14",
+          15
+        ],
+        [
+          "DA1_lPN",
+          13
+        ],
+        [
+          "IPC",
+          13
+        ],
+        [
+          "LPLC1",
+          13
+        ],
+        [
+          "LPT114",
+          13
+        ],
+        [
+          "EPG",
+          12
+        ],
+        [
+          "AN08B018",
+          12
+        ]
+      ]
+    },
+    {
+      "hop": 4,
+      "n_pre": 5000,
+      "exc_syn": 10016149.0,
+      "inh_syn": 9637427.0,
+      "exc_edges": 1304464,
+      "inh_edges": 1389358,
+      "n_targets": 5000,
+      "targets_truncated": true,
+      "mean_fanout": 630.9084,
+      "median_fanout": 422.0,
+      "max_fanout": 11203,
+      "target_types_top": [
+        [
+          "Dm6",
+          43
+        ],
+        [
+          "MeLo8",
+          39
+        ],
+        [
+          "Dm13",
+          36
+        ],
+        [
+          "Dm19",
+          27
+        ],
+        [
+          "L2",
+          27
+        ],
+        [
+          "lLN1_bc",
+          25
+        ],
+        [
+          "?",
+          22
+        ],
+        [
+          "LT51",
+          21
+        ],
+        [
+          "Dm18",
+          15
+        ],
+        [
+          "TmY14",
+          14
+        ],
+        [
+          "VS",
+          13
+        ],
+        [
+          "DA1_lPN",
+          13
+        ]
+      ]
+    }
+  ],
+  "LgLG6_paths": {
+    "signed_product_by_depth": {
+      "2": -21441.0,
+      "3": 38815678.0,
+      "4": -164412159755.0
+    },
+    "path_edge_hits_by_depth": {
+      "2": 32,
+      "3": 2712,
+      "4": 3050
+    },
+    "final_frontier_size": 162387
+  },
+  "LgLG5_paths": {
+    "signed_product_by_depth": {
+      "2": -1583.0,
+      "3": 79833716.0,
+      "4": -48030734754.0
+    },
+    "path_edge_hits_by_depth": {
+      "2": 32,
+      "3": 2700,
+      "4": 3050
+    },
+    "final_frontier_size": 160659
+  },
+  "LgLG7_hops": [
+    {
+      "hop": 1,
+      "n_pre": 21,
+      "exc_syn": 3894.0,
+      "inh_syn": 0.0,
+      "exc_edges": 679,
+      "inh_edges": 0,
+      "n_targets": 171,
+      "targets_truncated": false,
+      "mean_fanout": 32.333333333333336,
+      "median_fanout": 30.0,
+      "max_fanout": 49,
+      "target_types_top": [
+        [
+          "LgLG7",
+          21
+        ],
+        [
+          "LgLG8",
+          14
+        ],
+        [
+          "AN09B004",
+          6
+        ],
+        [
+          "IN01B095",
+          5
+        ],
+        [
+          "IN04B079",
+          4
+        ],
+        [
+          "IN09B038",
+          4
+        ],
+        [
+          "LgLG2",
+          4
+        ],
+        [
+          "LgLG6",
+          3
+        ],
+        [
+          "AN17A015",
+          2
+        ],
+        [
+          "IN13B009",
+          2
+        ],
+        [
+          "IN09B047",
+          2
+        ],
+        [
+          "IN13B030",
+          2
+        ]
+      ]
+    },
+    {
+      "hop": 2,
+      "n_pre": 171,
+      "exc_syn": 190995.0,
+      "inh_syn": 208187.0,
+      "exc_edges": 27344,
+      "inh_edges": 27443,
+      "n_targets": 14119,
+      "targets_truncated": false,
+      "mean_fanout": 321.2046783625731,
+      "median_fanout": 212.0,
+      "max_fanout": 1228,
+      "target_types_top": [
+        [
+          "?",
+          306
+        ],
+        [
+          "LgLG1a",
+          135
+        ],
+        [
+          "LgLG1b",
+          134
+        ],
+        [
+          "LgLG2",
+          130
+        ],
+        [
+          "SNta29",
+          127
+        ],
+        [
+          "LgLG3",
+          113
+        ],
+        [
+          "WG1",
+          96
+        ],
+        [
+          "WG4",
+          96
+        ],
+        [
+          "WG3",
+          96
+        ],
+        [
+          "LC9",
+          87
+        ],
+        [
+          "WG2",
+          75
+        ],
+        [
+          "SNta37",
+          72
+        ]
+      ]
+    },
+    {
+      "hop": 3,
+      "n_pre": 14119,
+      "exc_syn": 13841508.0,
+      "inh_syn": 10316206.0,
+      "exc_edges": 2172544,
+      "inh_edges": 1620186,
+      "n_targets": 5000,
+      "targets_truncated": true,
+      "mean_fanout": 289.21205467809335,
+      "median_fanout": 210.0,
+      "max_fanout": 10044,
+      "target_types_top": [
+        [
+          "Dm6",
+          46
+        ],
+        [
+          "MeLo8",
+          39
+        ],
+        [
+          "Dm13",
+          37
+        ],
+        [
+          "Dm19",
+          27
+        ],
+        [
+          "lLN1_bc",
+          25
+        ],
+        [
+          "?",
+          23
+        ],
+        [
+          "LT51",
+          21
+        ],
+        [
+          "TmY14",
+          14
+        ],
+        [
+          "DA1_lPN",
+          13
+        ],
+        [
+          "IPC",
+          13
+        ],
+        [
+          "LPLC1",
+          13
+        ],
+        [
+          "EPG",
+          12
+        ]
+      ]
+    },
+    {
+      "hop": 4,
+      "n_pre": 5000,
+      "exc_syn": 9868733.0,
+      "inh_syn": 9906259.0,
+      "exc_edges": 1279900,
+      "inh_edges": 1478825,
+      "n_targets": 5000,
+      "targets_truncated": true,
+      "mean_fanout": 643.5802,
+      "median_fanout": 427.0,
+      "max_fanout": 11203,
+      "target_types_top": [
+        [
+          "L2",
+          56
+        ],
+        [
+          "Dm6",
+          42
+        ],
+        [
+          "MeLo8",
+          38
+        ],
+        [
+          "Dm13",
+          36
+        ],
+        [
+          "Dm19",
+          27
+        ],
+        [
+          "lLN1_bc",
+          25
+        ],
+        [
+          "?",
+          22
+        ],
+        [
+          "LT51",
+          21
+        ],
+        [
+          "Dm18",
+          16
+        ],
+        [
+          "TmY14",
+          14
+        ],
+        [
+          "VS",
+          13
+        ],
+        [
+          "DA1_lPN",
+          13
+        ]
+      ]
+    }
+  ],
+  "LgLG8_hops": [
+    {
+      "hop": 1,
+      "n_pre": 14,
+      "exc_syn": 6177.0,
+      "inh_syn": 0.0,
+      "exc_edges": 672,
+      "inh_edges": 0,
+      "n_targets": 167,
+      "targets_truncated": false,
+      "mean_fanout": 48.0,
+      "median_fanout": 48.5,
+      "max_fanout": 66,
+      "target_types_top": [
+        [
+          "LgLG2",
+          15
+        ],
+        [
+          "LgLG7",
+          15
+        ],
+        [
+          "LgLG8",
+          14
+        ],
+        [
+          "AN09B004",
+          7
+        ],
+        [
+          "IN04B079",
+          6
+        ],
+        [
+          "AN17A015",
+          2
+        ],
+        [
+          "AN17A024",
+          2
+        ],
+        [
+          "IN09B047",
+          2
+        ],
+        [
+          "AN05B023d",
+          2
+        ],
+        [
+          "AN05B035",
+          2
+        ],
+        [
+          "AN09B017b",
+          2
+        ],
+        [
+          "AN09B017a",
+          2
+        ]
+      ]
+    },
+    {
+      "hop": 2,
+      "n_pre": 167,
+      "exc_syn": 209093.0,
+      "inh_syn": 214586.0,
+      "exc_edges": 30406,
+      "inh_edges": 28945,
+      "n_targets": 13689,
+      "targets_truncated": false,
+      "mean_fanout": 365.0179640718563,
+      "median_fanout": 293.0,
+      "max_fanout": 1541,
+      "target_types_top": [
+        [
+          "?",
+          313
+        ],
+        [
+          "LgLG1b",
+          134
+        ],
+        [
+          "LgLG1a",
+          133
+        ],
+        [
+          "LgLG2",
+          130
+        ],
+        [
+          "LgLG3",
+          124
+        ],
+        [
+          "WG1",
+          96
+        ],
+        [
+          "WG4",
+          96
+        ],
+        [
+          "WG3",
+          96
+        ],
+        [
+          "SNta29",
+          79
+        ],
+        [
+          "LC9",
+          75
+        ],
+        [
+          "WG2",
+          74
+        ],
+        [
+          "SNxx33",
+          39
+        ]
+      ]
+    },
+    {
+      "hop": 3,
+      "n_pre": 13689,
+      "exc_syn": 13971874.0,
+      "inh_syn": 10733357.0,
+      "exc_edges": 2179732,
+      "inh_edges": 1685084,
+      "n_targets": 5000,
+      "targets_truncated": true,
+      "mean_fanout": 305.9120461684564,
+      "median_fanout": 224.0,
+      "max_fanout": 10144,
+      "target_types_top": [
+        [
+          "Dm6",
+          46
+        ],
+        [
+          "MeLo8",
+          39
+        ],
+        [
+          "Dm13",
+          37
+        ],
+        [
+          "Dm19",
+          27
+        ],
+        [
+          "lLN1_bc",
+          25
+        ],
+        [
+          "?",
+          23
+        ],
+        [
+          "LT51",
+          21
+        ],
+        [
+          "TmY14",
+          14
+        ],
+        [
+          "DA1_lPN",
+          13
+        ],
+        [
+          "IPC",
+          13
+        ],
+        [
+          "LPLC1",
+          13
+        ],
+        [
+          "AN08B018",
+          12
+        ]
+      ]
+    },
+    {
+      "hop": 4,
+      "n_pre": 5000,
+      "exc_syn": 9854144.0,
+      "inh_syn": 9892153.0,
+      "exc_edges": 1277851,
+      "inh_edges": 1476407,
+      "n_targets": 5000,
+      "targets_truncated": true,
+      "mean_fanout": 642.6868,
+      "median_fanout": 427.0,
+      "max_fanout": 11203,
+      "target_types_top": [
+        [
+          "L2",
+          56
+        ],
+        [
+          "Dm6",
+          42
+        ],
+        [
+          "MeLo8",
+          38
+        ],
+        [
+          "Dm13",
+          36
+        ],
+        [
+          "Dm19",
+          27
+        ],
+        [
+          "lLN1_bc",
+          25
+        ],
+        [
+          "?",
+          22
+        ],
+        [
+          "LT51",
+          21
+        ],
+        [
+          "Dm18",
+          16
+        ],
+        [
+          "TmY14",
+          14
+        ],
+        [
+          "VS",
+          13
+        ],
+        [
+          "DA1_lPN",
+          13
+        ]
+      ]
+    }
+  ]
+}
