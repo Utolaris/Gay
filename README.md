@@ -8,6 +8,10 @@ follow-up P1 counts. A post-hoc search for conditions that make male P1 >
 female P1 is documented in [EXPLORATORY.md](EXPLORATORY.md); it does not
 replace those baselines.
 
+Mechanism-search audit (model incompleteness, signed male→P1 pathways,
+phenotype A/B/C split, next experiments that keep the female pathway intact)
+is in [MECHANISM_SEARCH.md](MECHANISM_SEARCH.md).
+
 ## Setup
 
 ```sh
