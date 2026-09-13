@@ -12,6 +12,9 @@ Mechanism-search audit (model incompleteness, signed male→P1 pathways,
 phenotype A/B/C split, next experiments that keep the female pathway intact)
 is in [MECHANISM_SEARCH.md](MECHANISM_SEARCH.md).
 
+E1 brake lesion map (female intact): [E1_PROTOCOL.md](E1_PROTOCOL.md),
+[E1_RESULTS.md](E1_RESULTS.md), `e1-results.json`.
+
 ## Setup
 
 ```sh
