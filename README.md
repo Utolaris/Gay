@@ -18,6 +18,9 @@ E1 brake lesion map (female intact): [E1_PROTOCOL.md](E1_PROTOCOL.md),
 E2 male excitatory relay amplification: [E2_PROTOCOL.md](E2_PROTOCOL.md),
 [E2_RESULTS.md](E2_RESULTS.md), `e2-results.json`.
 
+E3–E8 mechanism grid: [E3_E8_PROTOCOL.md](E3_E8_PROTOCOL.md),
+[E3_E8_RESULTS.md](E3_E8_RESULTS.md), `e3-e8-results.json`.
+
 ## Setup
 
 ```sh
