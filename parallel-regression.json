@@ -1,0 +1,9 @@
+{
+  "n_trials": 18,
+  "workers": 4,
+  "serial_seconds": 55.883724541869015,
+  "parallel_seconds": 21.268152916803956,
+  "speedup": 2.627577710225852,
+  "match": true,
+  "mismatches": []
+}

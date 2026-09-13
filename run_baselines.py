@@ -10,12 +10,15 @@ from pathlib import Path
 import numpy as np
 
 from orientation.intervention import none, output_silence
+from orientation.parallel import (
+    TrialSpec,
+    default_worker_count,
+    run_trial_specs,
+)
 from orientation.simulate import (
     DEFAULT_REVERSAL_MV,
     load_prepared,
     preference_score,
-    response_metrics,
-    run_trial,
     sensory_event_schedule,
 )
 
@@ -32,6 +35,12 @@ def main() -> None:
         default=Path(__file__).resolve().parent / "baseline-results.json",
     )
     parser.add_argument("--reversal", type=float, default=DEFAULT_REVERSAL_MV)
+    parser.add_argument(
+        "--workers",
+        type=int,
+        default=None,
+        help="trial-level process workers; default auto (CPU-capped). 1 = serial.",
+    )
     args = parser.parse_args()
 
     started = time.perf_counter()
@@ -45,7 +54,6 @@ def main() -> None:
         "WT": none(),
         "mAL_output_silence": output_silence(mal, name="mAL_output_silence"),
     }
-    rows = []
     schedules = {}
     for input_name in INPUTS:
         for seed in SEEDS:
@@ -56,24 +64,30 @@ def main() -> None:
                 "event_sha256": digest,
                 "n_input_cells": int(len(inputs)),
             }
+
+    specs = []
+    for input_name in INPUTS:
+        for seed in SEEDS:
             for name, interv in interventions.items():
-                begin = time.perf_counter()
-                result = run_trial(
-                    network,
-                    input_name,
-                    seed,
-                    interv,
-                    reversal_mV=args.reversal,
-                    events=events,
+                specs.append(
+                    TrialSpec.from_intervention(
+                        args.data,
+                        input_name,
+                        seed,
+                        interv,
+                        reversal_mV=args.reversal,
+                        label=name,
+                    )
                 )
-                metrics = response_metrics(result, network, interv)
-                if result.event_sha256 != digest:
-                    raise AssertionError("trial consumed a different event schedule")
-                if interv.target.size and np.intersect1d(interv.target, p1).size:
-                    raise AssertionError("intervention targets P1 readout")
-                metrics["seconds"] = round(time.perf_counter() - begin, 3)
-                rows.append(metrics)
-                print(json.dumps(metrics), flush=True)
+    n_workers = default_worker_count(len(specs)) if args.workers is None else args.workers
+    rows = run_trial_specs(specs, workers=n_workers, progress=True)
+    for metrics in rows:
+        key = f"{metrics['input']}__{metrics['seed']}"
+        if metrics["event_sha256"] != schedules[key]["event_sha256"]:
+            raise AssertionError("trial consumed a different event schedule")
+        if metrics.get("intervention_overlaps_P1"):
+            raise AssertionError("intervention targets P1 readout")
+        metrics["intervention"] = metrics.pop("label") or metrics.get("intervention")
 
     preferences = []
     for name in interventions:
@@ -151,6 +165,7 @@ def main() -> None:
         "neurons": network.n,
         "edges": int(network.graph.nnz),
         "reversal_mV": args.reversal,
+        "workers": n_workers,
         "seeds": list(SEEDS),
         "inputs": list(INPUTS),
         "interventions": list(interventions),

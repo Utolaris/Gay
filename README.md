@@ -39,6 +39,7 @@ Requires several GB of disk and memory. Source data: MaleCNS v1.0, CC BY 4.0.
 
 ```sh
 uv run python run_baselines.py .experiment-data
+# optional: --workers 1|N  (default auto, capped at 4 on this workload)
 ```
 
 Writes `baseline-results.json`:
@@ -47,6 +48,20 @@ Writes `baseline-results.json`:
 - broad P1-related / mAL / global activity
 - matched event hashes
 - preference score `(M−F)/(M+F+ε)`
+
+### Trial-level parallelism
+
+`orientation/parallel.py` runs independent (intervention × input × seed) trials
+in a process pool. The single-trial Numba kernel and seed semantics are
+unchanged. Graph CSR arrays are exported once to
+`.experiment-data/graph_mmap/*.npy` and opened `mmap_mode='r'` in workers.
+
+```sh
+uv run python regress_parallel.py .experiment-data --workers 4  # must PASS
+uv run python benchmark_parallel.py .experiment-data            # 1/2/4/6/8
+```
+
+See [PERFORMANCE.md](PERFORMANCE.md).
 
 ## Tests
 
