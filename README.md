@@ -24,6 +24,11 @@ E3–E8 mechanism grid: [E3_E8_PROTOCOL.md](E3_E8_PROTOCOL.md),
 LgLG6 vs LgLG5 signed pathway decomposition (why female effective drive is
 stronger): [LGLG_PATHWAY_REPORT.md](LGLG_PATHWAY_REPORT.md).
 
+S-block: AN09B017b/c sign evidence, hop-3 routing roles, and female-intact
+local interventions: [BC_HOP3_PROTOCOL.md](BC_HOP3_PROTOCOL.md),
+[BC_HOP3_REPORT.md](BC_HOP3_REPORT.md), `bc-hop3-evidence.json`,
+`bc-hop3-results.json`.
+
 ## Setup
 
 ```sh

@@ -1,0 +1,3095 @@
+{
+  "kind": "S_block_bc_sign_hop3",
+  "protocol_sha256": "c87286176fade877d59d49d3ba4b29065e09c54b0467eb65c56ab1a58267df9e",
+  "seeds": [
+    11,
+    12,
+    13
+  ],
+  "workers": 6,
+  "n_jobs": 120,
+  "n_ok": 120,
+  "n_error": 0,
+  "results": [
+    {
+      "input": "candidate_male",
+      "seed": 11,
+      "P1_spikes": 0,
+      "broad_P1_spikes": 48,
+      "mAL_spikes": 77,
+      "network_spikes": 6844,
+      "active_neurons": 1970,
+      "events": 1124,
+      "voltage_min_mV": -69.34767284957265,
+      "voltage_max_mV": -43.62298125554064,
+      "n_input_cells": 37,
+      "block": "S1",
+      "condition": "base_WT",
+      "mal_silence": false,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 12,
+      "P1_spikes": 0,
+      "broad_P1_spikes": 45,
+      "mAL_spikes": 79,
+      "network_spikes": 14817,
+      "active_neurons": 4603,
+      "events": 1073,
+      "voltage_min_mV": -69.28911628111754,
+      "voltage_max_mV": -41.95566812972372,
+      "n_input_cells": 37,
+      "block": "S1",
+      "condition": "base_WT",
+      "mal_silence": false,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 13,
+      "P1_spikes": 0,
+      "broad_P1_spikes": 42,
+      "mAL_spikes": 80,
+      "network_spikes": 7040,
+      "active_neurons": 1977,
+      "events": 1060,
+      "voltage_min_mV": -69.31679730976894,
+      "voltage_max_mV": -43.896597339600305,
+      "n_input_cells": 37,
+      "block": "S1",
+      "condition": "base_WT",
+      "mal_silence": false,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 11,
+      "P1_spikes": 11,
+      "broad_P1_spikes": 30,
+      "mAL_spikes": 42,
+      "network_spikes": 10193,
+      "active_neurons": 2656,
+      "events": 1088,
+      "voltage_min_mV": -69.2944531920693,
+      "voltage_max_mV": -43.034038673145666,
+      "n_input_cells": 27,
+      "block": "S1",
+      "condition": "base_WT",
+      "mal_silence": false,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 12,
+      "P1_spikes": 8,
+      "broad_P1_spikes": 39,
+      "mAL_spikes": 45,
+      "network_spikes": 6627,
+      "active_neurons": 1807,
+      "events": 1061,
+      "voltage_min_mV": -69.19275843689478,
+      "voltage_max_mV": -43.92242709393477,
+      "n_input_cells": 27,
+      "block": "S1",
+      "condition": "base_WT",
+      "mal_silence": false,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 13,
+      "P1_spikes": 8,
+      "broad_P1_spikes": 36,
+      "mAL_spikes": 44,
+      "network_spikes": 7126,
+      "active_neurons": 1861,
+      "events": 1111,
+      "voltage_min_mV": -69.21371379529423,
+      "voltage_max_mV": -43.74331222772762,
+      "n_input_cells": 27,
+      "block": "S1",
+      "condition": "base_WT",
+      "mal_silence": false,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 11,
+      "P1_spikes": 4,
+      "broad_P1_spikes": 55,
+      "mAL_spikes": 115,
+      "network_spikes": 6108,
+      "active_neurons": 1388,
+      "events": 1124,
+      "voltage_min_mV": -69.54309675750991,
+      "voltage_max_mV": -43.88598449287955,
+      "n_input_cells": 37,
+      "block": "S1",
+      "condition": "base_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 12,
+      "P1_spikes": 5,
+      "broad_P1_spikes": 51,
+      "mAL_spikes": 107,
+      "network_spikes": 5330,
+      "active_neurons": 1423,
+      "events": 1073,
+      "voltage_min_mV": -69.31880027324182,
+      "voltage_max_mV": -43.783077632082254,
+      "n_input_cells": 37,
+      "block": "S1",
+      "condition": "base_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 13,
+      "P1_spikes": 1,
+      "broad_P1_spikes": 52,
+      "mAL_spikes": 92,
+      "network_spikes": 5139,
+      "active_neurons": 1601,
+      "events": 1060,
+      "voltage_min_mV": -69.34685485542497,
+      "voltage_max_mV": -43.82787079580581,
+      "n_input_cells": 37,
+      "block": "S1",
+      "condition": "base_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 11,
+      "P1_spikes": 18,
+      "broad_P1_spikes": 41,
+      "mAL_spikes": 47,
+      "network_spikes": 7078,
+      "active_neurons": 1717,
+      "events": 1088,
+      "voltage_min_mV": -69.28949622214303,
+      "voltage_max_mV": -43.83250573740861,
+      "n_input_cells": 27,
+      "block": "S1",
+      "condition": "base_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 12,
+      "P1_spikes": 18,
+      "broad_P1_spikes": 45,
+      "mAL_spikes": 45,
+      "network_spikes": 7273,
+      "active_neurons": 1901,
+      "events": 1061,
+      "voltage_min_mV": -69.30891675217742,
+      "voltage_max_mV": -43.72731668054451,
+      "n_input_cells": 27,
+      "block": "S1",
+      "condition": "base_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 13,
+      "P1_spikes": 20,
+      "broad_P1_spikes": 51,
+      "mAL_spikes": 47,
+      "network_spikes": 7107,
+      "active_neurons": 1739,
+      "events": 1111,
+      "voltage_min_mV": -69.24665135446645,
+      "voltage_max_mV": -43.47840953086654,
+      "n_input_cells": 27,
+      "block": "S1",
+      "condition": "base_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 11,
+      "P1_spikes": 14,
+      "broad_P1_spikes": 75,
+      "mAL_spikes": 96,
+      "network_spikes": 5226,
+      "active_neurons": 1107,
+      "events": 1124,
+      "voltage_min_mV": -69.19662160369738,
+      "voltage_max_mV": -43.58291414827491,
+      "n_input_cells": 37,
+      "block": "S1",
+      "condition": "bc_exc_WT",
+      "mal_silence": false,
+      "sign_set": [
+        [
+          "AN09B017b",
+          1
+        ],
+        [
+          "AN09B017c",
+          1
+        ]
+      ]
+    },
+    {
+      "input": "candidate_male",
+      "seed": 12,
+      "P1_spikes": 11,
+      "broad_P1_spikes": 73,
+      "mAL_spikes": 94,
+      "network_spikes": 6932,
+      "active_neurons": 2007,
+      "events": 1073,
+      "voltage_min_mV": -69.28977445264344,
+      "voltage_max_mV": -43.76101119097435,
+      "n_input_cells": 37,
+      "block": "S1",
+      "condition": "bc_exc_WT",
+      "mal_silence": false,
+      "sign_set": [
+        [
+          "AN09B017b",
+          1
+        ],
+        [
+          "AN09B017c",
+          1
+        ]
+      ]
+    },
+    {
+      "input": "candidate_male",
+      "seed": 13,
+      "P1_spikes": 11,
+      "broad_P1_spikes": 66,
+      "mAL_spikes": 86,
+      "network_spikes": 6319,
+      "active_neurons": 1715,
+      "events": 1060,
+      "voltage_min_mV": -69.22604542988249,
+      "voltage_max_mV": -43.92242709393477,
+      "n_input_cells": 37,
+      "block": "S1",
+      "condition": "bc_exc_WT",
+      "mal_silence": false,
+      "sign_set": [
+        [
+          "AN09B017b",
+          1
+        ],
+        [
+          "AN09B017c",
+          1
+        ]
+      ]
+    },
+    {
+      "input": "candidate_female",
+      "seed": 11,
+      "P1_spikes": 11,
+      "broad_P1_spikes": 30,
+      "mAL_spikes": 42,
+      "network_spikes": 10193,
+      "active_neurons": 2656,
+      "events": 1088,
+      "voltage_min_mV": -69.2944531920693,
+      "voltage_max_mV": -43.034038673145666,
+      "n_input_cells": 27,
+      "block": "S1",
+      "condition": "bc_exc_WT",
+      "mal_silence": false,
+      "sign_set": [
+        [
+          "AN09B017b",
+          1
+        ],
+        [
+          "AN09B017c",
+          1
+        ]
+      ]
+    },
+    {
+      "input": "candidate_female",
+      "seed": 12,
+      "P1_spikes": 8,
+      "broad_P1_spikes": 39,
+      "mAL_spikes": 45,
+      "network_spikes": 6627,
+      "active_neurons": 1807,
+      "events": 1061,
+      "voltage_min_mV": -69.19275843689478,
+      "voltage_max_mV": -43.92242709393477,
+      "n_input_cells": 27,
+      "block": "S1",
+      "condition": "bc_exc_WT",
+      "mal_silence": false,
+      "sign_set": [
+        [
+          "AN09B017b",
+          1
+        ],
+        [
+          "AN09B017c",
+          1
+        ]
+      ]
+    },
+    {
+      "input": "candidate_female",
+      "seed": 13,
+      "P1_spikes": 8,
+      "broad_P1_spikes": 36,
+      "mAL_spikes": 44,
+      "network_spikes": 7126,
+      "active_neurons": 1861,
+      "events": 1111,
+      "voltage_min_mV": -69.21371379529423,
+      "voltage_max_mV": -43.74331222772762,
+      "n_input_cells": 27,
+      "block": "S1",
+      "condition": "bc_exc_WT",
+      "mal_silence": false,
+      "sign_set": [
+        [
+          "AN09B017b",
+          1
+        ],
+        [
+          "AN09B017c",
+          1
+        ]
+      ]
+    },
+    {
+      "input": "candidate_male",
+      "seed": 11,
+      "P1_spikes": 30,
+      "broad_P1_spikes": 88,
+      "mAL_spikes": 133,
+      "network_spikes": 7408,
+      "active_neurons": 1452,
+      "events": 1124,
+      "voltage_min_mV": -69.15912918729198,
+      "voltage_max_mV": -43.82880464105811,
+      "n_input_cells": 37,
+      "block": "S1",
+      "condition": "bc_exc_mAL",
+      "mal_silence": true,
+      "sign_set": [
+        [
+          "AN09B017b",
+          1
+        ],
+        [
+          "AN09B017c",
+          1
+        ]
+      ]
+    },
+    {
+      "input": "candidate_male",
+      "seed": 12,
+      "P1_spikes": 28,
+      "broad_P1_spikes": 91,
+      "mAL_spikes": 136,
+      "network_spikes": 7041,
+      "active_neurons": 1764,
+      "events": 1073,
+      "voltage_min_mV": -69.26578424696527,
+      "voltage_max_mV": -43.04467669895539,
+      "n_input_cells": 37,
+      "block": "S1",
+      "condition": "bc_exc_mAL",
+      "mal_silence": true,
+      "sign_set": [
+        [
+          "AN09B017b",
+          1
+        ],
+        [
+          "AN09B017c",
+          1
+        ]
+      ]
+    },
+    {
+      "input": "candidate_male",
+      "seed": 13,
+      "P1_spikes": 20,
+      "broad_P1_spikes": 84,
+      "mAL_spikes": 109,
+      "network_spikes": 5963,
+      "active_neurons": 1614,
+      "events": 1060,
+      "voltage_min_mV": -69.23002316502362,
+      "voltage_max_mV": -43.88902191164294,
+      "n_input_cells": 37,
+      "block": "S1",
+      "condition": "bc_exc_mAL",
+      "mal_silence": true,
+      "sign_set": [
+        [
+          "AN09B017b",
+          1
+        ],
+        [
+          "AN09B017c",
+          1
+        ]
+      ]
+    },
+    {
+      "input": "candidate_female",
+      "seed": 11,
+      "P1_spikes": 18,
+      "broad_P1_spikes": 41,
+      "mAL_spikes": 47,
+      "network_spikes": 7078,
+      "active_neurons": 1717,
+      "events": 1088,
+      "voltage_min_mV": -69.28949622214303,
+      "voltage_max_mV": -43.83250573740861,
+      "n_input_cells": 27,
+      "block": "S1",
+      "condition": "bc_exc_mAL",
+      "mal_silence": true,
+      "sign_set": [
+        [
+          "AN09B017b",
+          1
+        ],
+        [
+          "AN09B017c",
+          1
+        ]
+      ]
+    },
+    {
+      "input": "candidate_female",
+      "seed": 12,
+      "P1_spikes": 18,
+      "broad_P1_spikes": 45,
+      "mAL_spikes": 45,
+      "network_spikes": 7273,
+      "active_neurons": 1901,
+      "events": 1061,
+      "voltage_min_mV": -69.30891675217742,
+      "voltage_max_mV": -43.72731668054451,
+      "n_input_cells": 27,
+      "block": "S1",
+      "condition": "bc_exc_mAL",
+      "mal_silence": true,
+      "sign_set": [
+        [
+          "AN09B017b",
+          1
+        ],
+        [
+          "AN09B017c",
+          1
+        ]
+      ]
+    },
+    {
+      "input": "candidate_female",
+      "seed": 13,
+      "P1_spikes": 20,
+      "broad_P1_spikes": 51,
+      "mAL_spikes": 47,
+      "network_spikes": 7107,
+      "active_neurons": 1739,
+      "events": 1111,
+      "voltage_min_mV": -69.24665135446645,
+      "voltage_max_mV": -43.47840953086654,
+      "n_input_cells": 27,
+      "block": "S1",
+      "condition": "bc_exc_mAL",
+      "mal_silence": true,
+      "sign_set": [
+        [
+          "AN09B017b",
+          1
+        ],
+        [
+          "AN09B017c",
+          1
+        ]
+      ]
+    },
+    {
+      "input": "candidate_male",
+      "seed": 11,
+      "P1_spikes": 0,
+      "broad_P1_spikes": 58,
+      "mAL_spikes": 82,
+      "network_spikes": 6960,
+      "active_neurons": 1994,
+      "events": 1124,
+      "voltage_min_mV": -69.358058204323,
+      "voltage_max_mV": -43.90369953469077,
+      "n_input_cells": 37,
+      "block": "S1",
+      "condition": "bc_zero_WT",
+      "mal_silence": false,
+      "sign_set": [
+        [
+          "AN09B017b",
+          0
+        ],
+        [
+          "AN09B017c",
+          0
+        ]
+      ]
+    },
+    {
+      "input": "candidate_male",
+      "seed": 12,
+      "P1_spikes": 0,
+      "broad_P1_spikes": 56,
+      "mAL_spikes": 79,
+      "network_spikes": 4768,
+      "active_neurons": 1165,
+      "events": 1073,
+      "voltage_min_mV": -69.29749400426584,
+      "voltage_max_mV": -43.92242709393477,
+      "n_input_cells": 37,
+      "block": "S1",
+      "condition": "bc_zero_WT",
+      "mal_silence": false,
+      "sign_set": [
+        [
+          "AN09B017b",
+          0
+        ],
+        [
+          "AN09B017c",
+          0
+        ]
+      ]
+    },
+    {
+      "input": "candidate_male",
+      "seed": 13,
+      "P1_spikes": 1,
+      "broad_P1_spikes": 49,
+      "mAL_spikes": 71,
+      "network_spikes": 6146,
+      "active_neurons": 1906,
+      "events": 1060,
+      "voltage_min_mV": -69.31888434106818,
+      "voltage_max_mV": -43.503088475144914,
+      "n_input_cells": 37,
+      "block": "S1",
+      "condition": "bc_zero_WT",
+      "mal_silence": false,
+      "sign_set": [
+        [
+          "AN09B017b",
+          0
+        ],
+        [
+          "AN09B017c",
+          0
+        ]
+      ]
+    },
+    {
+      "input": "candidate_female",
+      "seed": 11,
+      "P1_spikes": 11,
+      "broad_P1_spikes": 30,
+      "mAL_spikes": 42,
+      "network_spikes": 10193,
+      "active_neurons": 2656,
+      "events": 1088,
+      "voltage_min_mV": -69.2944531920693,
+      "voltage_max_mV": -43.034038673145666,
+      "n_input_cells": 27,
+      "block": "S1",
+      "condition": "bc_zero_WT",
+      "mal_silence": false,
+      "sign_set": [
+        [
+          "AN09B017b",
+          0
+        ],
+        [
+          "AN09B017c",
+          0
+        ]
+      ]
+    },
+    {
+      "input": "candidate_female",
+      "seed": 12,
+      "P1_spikes": 8,
+      "broad_P1_spikes": 39,
+      "mAL_spikes": 45,
+      "network_spikes": 6627,
+      "active_neurons": 1807,
+      "events": 1061,
+      "voltage_min_mV": -69.19275843689478,
+      "voltage_max_mV": -43.92242709393477,
+      "n_input_cells": 27,
+      "block": "S1",
+      "condition": "bc_zero_WT",
+      "mal_silence": false,
+      "sign_set": [
+        [
+          "AN09B017b",
+          0
+        ],
+        [
+          "AN09B017c",
+          0
+        ]
+      ]
+    },
+    {
+      "input": "candidate_female",
+      "seed": 13,
+      "P1_spikes": 8,
+      "broad_P1_spikes": 36,
+      "mAL_spikes": 44,
+      "network_spikes": 7126,
+      "active_neurons": 1861,
+      "events": 1111,
+      "voltage_min_mV": -69.21371379529423,
+      "voltage_max_mV": -43.74331222772762,
+      "n_input_cells": 27,
+      "block": "S1",
+      "condition": "bc_zero_WT",
+      "mal_silence": false,
+      "sign_set": [
+        [
+          "AN09B017b",
+          0
+        ],
+        [
+          "AN09B017c",
+          0
+        ]
+      ]
+    },
+    {
+      "input": "candidate_male",
+      "seed": 11,
+      "P1_spikes": 10,
+      "broad_P1_spikes": 75,
+      "mAL_spikes": 119,
+      "network_spikes": 7283,
+      "active_neurons": 2022,
+      "events": 1124,
+      "voltage_min_mV": -69.22849554377217,
+      "voltage_max_mV": -43.87378998505054,
+      "n_input_cells": 37,
+      "block": "S1",
+      "condition": "bc_zero_mAL",
+      "mal_silence": true,
+      "sign_set": [
+        [
+          "AN09B017b",
+          0
+        ],
+        [
+          "AN09B017c",
+          0
+        ]
+      ]
+    },
+    {
+      "input": "candidate_male",
+      "seed": 12,
+      "P1_spikes": 11,
+      "broad_P1_spikes": 66,
+      "mAL_spikes": 122,
+      "network_spikes": 5524,
+      "active_neurons": 1535,
+      "events": 1073,
+      "voltage_min_mV": -69.37284731055402,
+      "voltage_max_mV": -43.85318022952739,
+      "n_input_cells": 37,
+      "block": "S1",
+      "condition": "bc_zero_mAL",
+      "mal_silence": true,
+      "sign_set": [
+        [
+          "AN09B017b",
+          0
+        ],
+        [
+          "AN09B017c",
+          0
+        ]
+      ]
+    },
+    {
+      "input": "candidate_male",
+      "seed": 13,
+      "P1_spikes": 3,
+      "broad_P1_spikes": 64,
+      "mAL_spikes": 98,
+      "network_spikes": 39804,
+      "active_neurons": 5531,
+      "events": 1060,
+      "voltage_min_mV": -69.37272468490477,
+      "voltage_max_mV": -41.65357659540531,
+      "n_input_cells": 37,
+      "block": "S1",
+      "condition": "bc_zero_mAL",
+      "mal_silence": true,
+      "sign_set": [
+        [
+          "AN09B017b",
+          0
+        ],
+        [
+          "AN09B017c",
+          0
+        ]
+      ]
+    },
+    {
+      "input": "candidate_female",
+      "seed": 11,
+      "P1_spikes": 18,
+      "broad_P1_spikes": 41,
+      "mAL_spikes": 47,
+      "network_spikes": 7078,
+      "active_neurons": 1717,
+      "events": 1088,
+      "voltage_min_mV": -69.28949622214303,
+      "voltage_max_mV": -43.83250573740861,
+      "n_input_cells": 27,
+      "block": "S1",
+      "condition": "bc_zero_mAL",
+      "mal_silence": true,
+      "sign_set": [
+        [
+          "AN09B017b",
+          0
+        ],
+        [
+          "AN09B017c",
+          0
+        ]
+      ]
+    },
+    {
+      "input": "candidate_female",
+      "seed": 12,
+      "P1_spikes": 18,
+      "broad_P1_spikes": 45,
+      "mAL_spikes": 45,
+      "network_spikes": 7273,
+      "active_neurons": 1901,
+      "events": 1061,
+      "voltage_min_mV": -69.30891675217742,
+      "voltage_max_mV": -43.72731668054451,
+      "n_input_cells": 27,
+      "block": "S1",
+      "condition": "bc_zero_mAL",
+      "mal_silence": true,
+      "sign_set": [
+        [
+          "AN09B017b",
+          0
+        ],
+        [
+          "AN09B017c",
+          0
+        ]
+      ]
+    },
+    {
+      "input": "candidate_female",
+      "seed": 13,
+      "P1_spikes": 20,
+      "broad_P1_spikes": 51,
+      "mAL_spikes": 47,
+      "network_spikes": 7107,
+      "active_neurons": 1739,
+      "events": 1111,
+      "voltage_min_mV": -69.24665135446645,
+      "voltage_max_mV": -43.47840953086654,
+      "n_input_cells": 27,
+      "block": "S1",
+      "condition": "bc_zero_mAL",
+      "mal_silence": true,
+      "sign_set": [
+        [
+          "AN09B017b",
+          0
+        ],
+        [
+          "AN09B017c",
+          0
+        ]
+      ]
+    },
+    {
+      "input": "candidate_male",
+      "seed": 11,
+      "P1_spikes": 14,
+      "broad_P1_spikes": 75,
+      "mAL_spikes": 96,
+      "network_spikes": 5226,
+      "active_neurons": 1107,
+      "events": 1124,
+      "voltage_min_mV": -69.19662160369738,
+      "voltage_max_mV": -43.58291414827491,
+      "n_input_cells": 37,
+      "block": "S1",
+      "condition": "bcg_exc_WT",
+      "mal_silence": false,
+      "sign_set": [
+        [
+          "AN09B017b",
+          1
+        ],
+        [
+          "AN09B017c",
+          1
+        ],
+        [
+          "AN09B017g",
+          1
+        ]
+      ]
+    },
+    {
+      "input": "candidate_male",
+      "seed": 12,
+      "P1_spikes": 11,
+      "broad_P1_spikes": 73,
+      "mAL_spikes": 94,
+      "network_spikes": 6932,
+      "active_neurons": 2007,
+      "events": 1073,
+      "voltage_min_mV": -69.28977445264344,
+      "voltage_max_mV": -43.76101119097435,
+      "n_input_cells": 37,
+      "block": "S1",
+      "condition": "bcg_exc_WT",
+      "mal_silence": false,
+      "sign_set": [
+        [
+          "AN09B017b",
+          1
+        ],
+        [
+          "AN09B017c",
+          1
+        ],
+        [
+          "AN09B017g",
+          1
+        ]
+      ]
+    },
+    {
+      "input": "candidate_male",
+      "seed": 13,
+      "P1_spikes": 11,
+      "broad_P1_spikes": 66,
+      "mAL_spikes": 86,
+      "network_spikes": 6319,
+      "active_neurons": 1715,
+      "events": 1060,
+      "voltage_min_mV": -69.22604542988249,
+      "voltage_max_mV": -43.92242709393477,
+      "n_input_cells": 37,
+      "block": "S1",
+      "condition": "bcg_exc_WT",
+      "mal_silence": false,
+      "sign_set": [
+        [
+          "AN09B017b",
+          1
+        ],
+        [
+          "AN09B017c",
+          1
+        ],
+        [
+          "AN09B017g",
+          1
+        ]
+      ]
+    },
+    {
+      "input": "candidate_female",
+      "seed": 11,
+      "P1_spikes": 0,
+      "broad_P1_spikes": 117,
+      "mAL_spikes": 239,
+      "network_spikes": 26636,
+      "active_neurons": 5694,
+      "events": 1088,
+      "voltage_min_mV": -69.3097665941057,
+      "voltage_max_mV": -41.88921917953885,
+      "n_input_cells": 27,
+      "block": "S1",
+      "condition": "bcg_exc_WT",
+      "mal_silence": false,
+      "sign_set": [
+        [
+          "AN09B017b",
+          1
+        ],
+        [
+          "AN09B017c",
+          1
+        ],
+        [
+          "AN09B017g",
+          1
+        ]
+      ]
+    },
+    {
+      "input": "candidate_female",
+      "seed": 12,
+      "P1_spikes": 0,
+      "broad_P1_spikes": 122,
+      "mAL_spikes": 246,
+      "network_spikes": 41702,
+      "active_neurons": 5820,
+      "events": 1061,
+      "voltage_min_mV": -69.09605753352773,
+      "voltage_max_mV": -41.34897718843373,
+      "n_input_cells": 27,
+      "block": "S1",
+      "condition": "bcg_exc_WT",
+      "mal_silence": false,
+      "sign_set": [
+        [
+          "AN09B017b",
+          1
+        ],
+        [
+          "AN09B017c",
+          1
+        ],
+        [
+          "AN09B017g",
+          1
+        ]
+      ]
+    },
+    {
+      "input": "candidate_female",
+      "seed": 13,
+      "P1_spikes": 0,
+      "broad_P1_spikes": 129,
+      "mAL_spikes": 248,
+      "network_spikes": 8747,
+      "active_neurons": 1800,
+      "events": 1111,
+      "voltage_min_mV": -69.44596359128856,
+      "voltage_max_mV": -43.78562156475577,
+      "n_input_cells": 27,
+      "block": "S1",
+      "condition": "bcg_exc_WT",
+      "mal_silence": false,
+      "sign_set": [
+        [
+          "AN09B017b",
+          1
+        ],
+        [
+          "AN09B017c",
+          1
+        ],
+        [
+          "AN09B017g",
+          1
+        ]
+      ]
+    },
+    {
+      "input": "candidate_male",
+      "seed": 11,
+      "P1_spikes": 30,
+      "broad_P1_spikes": 88,
+      "mAL_spikes": 133,
+      "network_spikes": 7408,
+      "active_neurons": 1452,
+      "events": 1124,
+      "voltage_min_mV": -69.15912918729198,
+      "voltage_max_mV": -43.82880464105811,
+      "n_input_cells": 37,
+      "block": "S1",
+      "condition": "bcg_exc_mAL",
+      "mal_silence": true,
+      "sign_set": [
+        [
+          "AN09B017b",
+          1
+        ],
+        [
+          "AN09B017c",
+          1
+        ],
+        [
+          "AN09B017g",
+          1
+        ]
+      ]
+    },
+    {
+      "input": "candidate_male",
+      "seed": 12,
+      "P1_spikes": 28,
+      "broad_P1_spikes": 91,
+      "mAL_spikes": 136,
+      "network_spikes": 7041,
+      "active_neurons": 1764,
+      "events": 1073,
+      "voltage_min_mV": -69.26578424696527,
+      "voltage_max_mV": -43.04467669895539,
+      "n_input_cells": 37,
+      "block": "S1",
+      "condition": "bcg_exc_mAL",
+      "mal_silence": true,
+      "sign_set": [
+        [
+          "AN09B017b",
+          1
+        ],
+        [
+          "AN09B017c",
+          1
+        ],
+        [
+          "AN09B017g",
+          1
+        ]
+      ]
+    },
+    {
+      "input": "candidate_male",
+      "seed": 13,
+      "P1_spikes": 20,
+      "broad_P1_spikes": 84,
+      "mAL_spikes": 109,
+      "network_spikes": 5963,
+      "active_neurons": 1614,
+      "events": 1060,
+      "voltage_min_mV": -69.23002316502362,
+      "voltage_max_mV": -43.88902191164294,
+      "n_input_cells": 37,
+      "block": "S1",
+      "condition": "bcg_exc_mAL",
+      "mal_silence": true,
+      "sign_set": [
+        [
+          "AN09B017b",
+          1
+        ],
+        [
+          "AN09B017c",
+          1
+        ],
+        [
+          "AN09B017g",
+          1
+        ]
+      ]
+    },
+    {
+      "input": "candidate_female",
+      "seed": 11,
+      "P1_spikes": 11,
+      "broad_P1_spikes": 157,
+      "mAL_spikes": 287,
+      "network_spikes": 11383,
+      "active_neurons": 3161,
+      "events": 1088,
+      "voltage_min_mV": -69.2931739678798,
+      "voltage_max_mV": -41.73018707277807,
+      "n_input_cells": 27,
+      "block": "S1",
+      "condition": "bcg_exc_mAL",
+      "mal_silence": true,
+      "sign_set": [
+        [
+          "AN09B017b",
+          1
+        ],
+        [
+          "AN09B017c",
+          1
+        ],
+        [
+          "AN09B017g",
+          1
+        ]
+      ]
+    },
+    {
+      "input": "candidate_female",
+      "seed": 12,
+      "P1_spikes": 16,
+      "broad_P1_spikes": 165,
+      "mAL_spikes": 299,
+      "network_spikes": 9379,
+      "active_neurons": 1778,
+      "events": 1061,
+      "voltage_min_mV": -69.38318451540142,
+      "voltage_max_mV": -43.78562156475577,
+      "n_input_cells": 27,
+      "block": "S1",
+      "condition": "bcg_exc_mAL",
+      "mal_silence": true,
+      "sign_set": [
+        [
+          "AN09B017b",
+          1
+        ],
+        [
+          "AN09B017c",
+          1
+        ],
+        [
+          "AN09B017g",
+          1
+        ]
+      ]
+    },
+    {
+      "input": "candidate_female",
+      "seed": 13,
+      "P1_spikes": 15,
+      "broad_P1_spikes": 169,
+      "mAL_spikes": 298,
+      "network_spikes": 9662,
+      "active_neurons": 1861,
+      "events": 1111,
+      "voltage_min_mV": -69.49639303442744,
+      "voltage_max_mV": -43.81387723480008,
+      "n_input_cells": 27,
+      "block": "S1",
+      "condition": "bcg_exc_mAL",
+      "mal_silence": true,
+      "sign_set": [
+        [
+          "AN09B017b",
+          1
+        ],
+        [
+          "AN09B017c",
+          1
+        ],
+        [
+          "AN09B017g",
+          1
+        ]
+      ]
+    },
+    {
+      "input": "candidate_male",
+      "seed": 11,
+      "P1_spikes": 0,
+      "broad_P1_spikes": 48,
+      "mAL_spikes": 77,
+      "network_spikes": 6844,
+      "active_neurons": 1970,
+      "events": 1124,
+      "voltage_min_mV": -69.34767284957265,
+      "voltage_max_mV": -43.62298125554064,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "WT",
+      "mal_silence": false,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 12,
+      "P1_spikes": 0,
+      "broad_P1_spikes": 45,
+      "mAL_spikes": 79,
+      "network_spikes": 14817,
+      "active_neurons": 4603,
+      "events": 1073,
+      "voltage_min_mV": -69.28911628111754,
+      "voltage_max_mV": -41.95566812972372,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "WT",
+      "mal_silence": false,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 13,
+      "P1_spikes": 0,
+      "broad_P1_spikes": 42,
+      "mAL_spikes": 80,
+      "network_spikes": 7040,
+      "active_neurons": 1977,
+      "events": 1060,
+      "voltage_min_mV": -69.31679730976894,
+      "voltage_max_mV": -43.896597339600305,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "WT",
+      "mal_silence": false,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 11,
+      "P1_spikes": 11,
+      "broad_P1_spikes": 30,
+      "mAL_spikes": 42,
+      "network_spikes": 10193,
+      "active_neurons": 2656,
+      "events": 1088,
+      "voltage_min_mV": -69.2944531920693,
+      "voltage_max_mV": -43.034038673145666,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "WT",
+      "mal_silence": false,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 12,
+      "P1_spikes": 8,
+      "broad_P1_spikes": 39,
+      "mAL_spikes": 45,
+      "network_spikes": 6627,
+      "active_neurons": 1807,
+      "events": 1061,
+      "voltage_min_mV": -69.19275843689478,
+      "voltage_max_mV": -43.92242709393477,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "WT",
+      "mal_silence": false,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 13,
+      "P1_spikes": 8,
+      "broad_P1_spikes": 36,
+      "mAL_spikes": 44,
+      "network_spikes": 7126,
+      "active_neurons": 1861,
+      "events": 1111,
+      "voltage_min_mV": -69.21371379529423,
+      "voltage_max_mV": -43.74331222772762,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "WT",
+      "mal_silence": false,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 11,
+      "P1_spikes": 4,
+      "broad_P1_spikes": 55,
+      "mAL_spikes": 115,
+      "network_spikes": 6108,
+      "active_neurons": 1388,
+      "events": 1124,
+      "voltage_min_mV": -69.54309675750991,
+      "voltage_max_mV": -43.88598449287955,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 12,
+      "P1_spikes": 5,
+      "broad_P1_spikes": 51,
+      "mAL_spikes": 107,
+      "network_spikes": 5330,
+      "active_neurons": 1423,
+      "events": 1073,
+      "voltage_min_mV": -69.31880027324182,
+      "voltage_max_mV": -43.783077632082254,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 13,
+      "P1_spikes": 1,
+      "broad_P1_spikes": 52,
+      "mAL_spikes": 92,
+      "network_spikes": 5139,
+      "active_neurons": 1601,
+      "events": 1060,
+      "voltage_min_mV": -69.34685485542497,
+      "voltage_max_mV": -43.82787079580581,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 11,
+      "P1_spikes": 18,
+      "broad_P1_spikes": 41,
+      "mAL_spikes": 47,
+      "network_spikes": 7078,
+      "active_neurons": 1717,
+      "events": 1088,
+      "voltage_min_mV": -69.28949622214303,
+      "voltage_max_mV": -43.83250573740861,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 12,
+      "P1_spikes": 18,
+      "broad_P1_spikes": 45,
+      "mAL_spikes": 45,
+      "network_spikes": 7273,
+      "active_neurons": 1901,
+      "events": 1061,
+      "voltage_min_mV": -69.30891675217742,
+      "voltage_max_mV": -43.72731668054451,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 13,
+      "P1_spikes": 20,
+      "broad_P1_spikes": 51,
+      "mAL_spikes": 47,
+      "network_spikes": 7107,
+      "active_neurons": 1739,
+      "events": 1111,
+      "voltage_min_mV": -69.24665135446645,
+      "voltage_max_mV": -43.47840953086654,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 11,
+      "P1_spikes": 10,
+      "broad_P1_spikes": 70,
+      "mAL_spikes": 119,
+      "network_spikes": 5593,
+      "active_neurons": 1264,
+      "events": 1124,
+      "voltage_min_mV": -69.36276095781139,
+      "voltage_max_mV": -43.83729781054493,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "c_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 12,
+      "P1_spikes": 6,
+      "broad_P1_spikes": 76,
+      "mAL_spikes": 105,
+      "network_spikes": 41197,
+      "active_neurons": 5750,
+      "events": 1073,
+      "voltage_min_mV": -69.10307929283684,
+      "voltage_max_mV": -40.99714525195568,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "c_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 13,
+      "P1_spikes": 3,
+      "broad_P1_spikes": 64,
+      "mAL_spikes": 98,
+      "network_spikes": 39804,
+      "active_neurons": 5531,
+      "events": 1060,
+      "voltage_min_mV": -69.37272468490477,
+      "voltage_max_mV": -41.65357659540531,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "c_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 11,
+      "P1_spikes": 18,
+      "broad_P1_spikes": 41,
+      "mAL_spikes": 47,
+      "network_spikes": 7078,
+      "active_neurons": 1717,
+      "events": 1088,
+      "voltage_min_mV": -69.28949622214303,
+      "voltage_max_mV": -43.83250573740861,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "c_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 12,
+      "P1_spikes": 18,
+      "broad_P1_spikes": 45,
+      "mAL_spikes": 45,
+      "network_spikes": 7273,
+      "active_neurons": 1901,
+      "events": 1061,
+      "voltage_min_mV": -69.30891675217742,
+      "voltage_max_mV": -43.72731668054451,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "c_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 13,
+      "P1_spikes": 20,
+      "broad_P1_spikes": 51,
+      "mAL_spikes": 47,
+      "network_spikes": 7107,
+      "active_neurons": 1739,
+      "events": 1111,
+      "voltage_min_mV": -69.24665135446645,
+      "voltage_max_mV": -43.47840953086654,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "c_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 11,
+      "P1_spikes": 10,
+      "broad_P1_spikes": 75,
+      "mAL_spikes": 119,
+      "network_spikes": 7283,
+      "active_neurons": 2022,
+      "events": 1124,
+      "voltage_min_mV": -69.22849554377217,
+      "voltage_max_mV": -43.87378998505054,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "bc_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 12,
+      "P1_spikes": 11,
+      "broad_P1_spikes": 66,
+      "mAL_spikes": 122,
+      "network_spikes": 5524,
+      "active_neurons": 1535,
+      "events": 1073,
+      "voltage_min_mV": -69.37284731055402,
+      "voltage_max_mV": -43.85318022952739,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "bc_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 13,
+      "P1_spikes": 3,
+      "broad_P1_spikes": 64,
+      "mAL_spikes": 98,
+      "network_spikes": 39804,
+      "active_neurons": 5531,
+      "events": 1060,
+      "voltage_min_mV": -69.37272468490477,
+      "voltage_max_mV": -41.65357659540531,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "bc_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 11,
+      "P1_spikes": 18,
+      "broad_P1_spikes": 41,
+      "mAL_spikes": 47,
+      "network_spikes": 7078,
+      "active_neurons": 1717,
+      "events": 1088,
+      "voltage_min_mV": -69.28949622214303,
+      "voltage_max_mV": -43.83250573740861,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "bc_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 12,
+      "P1_spikes": 18,
+      "broad_P1_spikes": 45,
+      "mAL_spikes": 45,
+      "network_spikes": 7273,
+      "active_neurons": 1901,
+      "events": 1061,
+      "voltage_min_mV": -69.30891675217742,
+      "voltage_max_mV": -43.72731668054451,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "bc_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 13,
+      "P1_spikes": 20,
+      "broad_P1_spikes": 51,
+      "mAL_spikes": 47,
+      "network_spikes": 7107,
+      "active_neurons": 1739,
+      "events": 1111,
+      "voltage_min_mV": -69.24665135446645,
+      "voltage_max_mV": -43.47840953086654,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "bc_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 11,
+      "P1_spikes": 9,
+      "broad_P1_spikes": 85,
+      "mAL_spikes": 120,
+      "network_spikes": 7203,
+      "active_neurons": 1894,
+      "events": 1124,
+      "voltage_min_mV": -69.40275879690498,
+      "voltage_max_mV": -43.4529162161699,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "bcd_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 12,
+      "P1_spikes": 9,
+      "broad_P1_spikes": 68,
+      "mAL_spikes": 116,
+      "network_spikes": 5464,
+      "active_neurons": 1463,
+      "events": 1073,
+      "voltage_min_mV": -69.25540665609849,
+      "voltage_max_mV": -43.803105185179234,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "bcd_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 13,
+      "P1_spikes": 5,
+      "broad_P1_spikes": 71,
+      "mAL_spikes": 90,
+      "network_spikes": 38892,
+      "active_neurons": 5495,
+      "events": 1060,
+      "voltage_min_mV": -69.15692434767938,
+      "voltage_max_mV": -41.591119654020964,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "bcd_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 11,
+      "P1_spikes": 18,
+      "broad_P1_spikes": 46,
+      "mAL_spikes": 47,
+      "network_spikes": 6707,
+      "active_neurons": 1700,
+      "events": 1088,
+      "voltage_min_mV": -69.32810602826588,
+      "voltage_max_mV": -43.86404573286122,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "bcd_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 12,
+      "P1_spikes": 18,
+      "broad_P1_spikes": 46,
+      "mAL_spikes": 47,
+      "network_spikes": 7282,
+      "active_neurons": 1902,
+      "events": 1061,
+      "voltage_min_mV": -69.30891675217742,
+      "voltage_max_mV": -43.72731668054451,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "bcd_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 13,
+      "P1_spikes": 20,
+      "broad_P1_spikes": 52,
+      "mAL_spikes": 47,
+      "network_spikes": 7110,
+      "active_neurons": 1740,
+      "events": 1111,
+      "voltage_min_mV": -69.24665135446645,
+      "voltage_max_mV": -43.47840953086654,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "bcd_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 11,
+      "P1_spikes": 1,
+      "broad_P1_spikes": 58,
+      "mAL_spikes": 107,
+      "network_spikes": 5856,
+      "active_neurons": 1249,
+      "events": 1124,
+      "voltage_min_mV": -69.34346584906588,
+      "voltage_max_mV": -43.676511566359274,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "a008_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 12,
+      "P1_spikes": 2,
+      "broad_P1_spikes": 50,
+      "mAL_spikes": 105,
+      "network_spikes": 5087,
+      "active_neurons": 1029,
+      "events": 1073,
+      "voltage_min_mV": -69.29094185275392,
+      "voltage_max_mV": -43.76993509572771,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "a008_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 13,
+      "P1_spikes": 1,
+      "broad_P1_spikes": 49,
+      "mAL_spikes": 98,
+      "network_spikes": 18375,
+      "active_neurons": 4540,
+      "events": 1060,
+      "voltage_min_mV": -69.35230833441358,
+      "voltage_max_mV": -40.46456410959203,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "a008_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 11,
+      "P1_spikes": 18,
+      "broad_P1_spikes": 41,
+      "mAL_spikes": 47,
+      "network_spikes": 7078,
+      "active_neurons": 1717,
+      "events": 1088,
+      "voltage_min_mV": -69.28949622214303,
+      "voltage_max_mV": -43.83250573740861,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "a008_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 12,
+      "P1_spikes": 18,
+      "broad_P1_spikes": 45,
+      "mAL_spikes": 45,
+      "network_spikes": 7273,
+      "active_neurons": 1901,
+      "events": 1061,
+      "voltage_min_mV": -69.30891675217742,
+      "voltage_max_mV": -43.72731668054451,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "a008_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 13,
+      "P1_spikes": 20,
+      "broad_P1_spikes": 51,
+      "mAL_spikes": 47,
+      "network_spikes": 7107,
+      "active_neurons": 1739,
+      "events": 1111,
+      "voltage_min_mV": -69.24665135446645,
+      "voltage_max_mV": -43.47840953086654,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "a008_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 11,
+      "P1_spikes": 8,
+      "broad_P1_spikes": 76,
+      "mAL_spikes": 128,
+      "network_spikes": 6748,
+      "active_neurons": 1689,
+      "events": 1124,
+      "voltage_min_mV": -69.30451333964982,
+      "voltage_max_mV": -43.42849995346296,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "a008_bc_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 12,
+      "P1_spikes": 6,
+      "broad_P1_spikes": 67,
+      "mAL_spikes": 123,
+      "network_spikes": 5451,
+      "active_neurons": 1239,
+      "events": 1073,
+      "voltage_min_mV": -69.3503936183131,
+      "voltage_max_mV": -44.071238394856024,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "a008_bc_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 13,
+      "P1_spikes": 4,
+      "broad_P1_spikes": 61,
+      "mAL_spikes": 99,
+      "network_spikes": 5775,
+      "active_neurons": 1587,
+      "events": 1060,
+      "voltage_min_mV": -69.54736221277574,
+      "voltage_max_mV": -43.912097215134935,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "a008_bc_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 11,
+      "P1_spikes": 18,
+      "broad_P1_spikes": 41,
+      "mAL_spikes": 47,
+      "network_spikes": 7078,
+      "active_neurons": 1717,
+      "events": 1088,
+      "voltage_min_mV": -69.28949622214303,
+      "voltage_max_mV": -43.83250573740861,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "a008_bc_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 12,
+      "P1_spikes": 18,
+      "broad_P1_spikes": 45,
+      "mAL_spikes": 45,
+      "network_spikes": 7273,
+      "active_neurons": 1901,
+      "events": 1061,
+      "voltage_min_mV": -69.30891675217742,
+      "voltage_max_mV": -43.72731668054451,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "a008_bc_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 13,
+      "P1_spikes": 20,
+      "broad_P1_spikes": 51,
+      "mAL_spikes": 47,
+      "network_spikes": 7107,
+      "active_neurons": 1739,
+      "events": 1111,
+      "voltage_min_mV": -69.24665135446645,
+      "voltage_max_mV": -43.47840953086654,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "a008_bc_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 11,
+      "P1_spikes": 7,
+      "broad_P1_spikes": 72,
+      "mAL_spikes": 122,
+      "network_spikes": 5719,
+      "active_neurons": 1219,
+      "events": 1124,
+      "voltage_min_mV": -69.30609107307171,
+      "voltage_max_mV": -43.74775329060449,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "a008_c_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 12,
+      "P1_spikes": 10,
+      "broad_P1_spikes": 73,
+      "mAL_spikes": 114,
+      "network_spikes": 5934,
+      "active_neurons": 1460,
+      "events": 1073,
+      "voltage_min_mV": -69.37845948090214,
+      "voltage_max_mV": -43.97696527461718,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "a008_c_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 13,
+      "P1_spikes": 4,
+      "broad_P1_spikes": 61,
+      "mAL_spikes": 99,
+      "network_spikes": 5775,
+      "active_neurons": 1587,
+      "events": 1060,
+      "voltage_min_mV": -69.54736221277574,
+      "voltage_max_mV": -43.912097215134935,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "a008_c_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 11,
+      "P1_spikes": 18,
+      "broad_P1_spikes": 41,
+      "mAL_spikes": 47,
+      "network_spikes": 7078,
+      "active_neurons": 1717,
+      "events": 1088,
+      "voltage_min_mV": -69.28949622214303,
+      "voltage_max_mV": -43.83250573740861,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "a008_c_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 12,
+      "P1_spikes": 18,
+      "broad_P1_spikes": 45,
+      "mAL_spikes": 45,
+      "network_spikes": 7273,
+      "active_neurons": 1901,
+      "events": 1061,
+      "voltage_min_mV": -69.30891675217742,
+      "voltage_max_mV": -43.72731668054451,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "a008_c_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 13,
+      "P1_spikes": 20,
+      "broad_P1_spikes": 51,
+      "mAL_spikes": 47,
+      "network_spikes": 7107,
+      "active_neurons": 1739,
+      "events": 1111,
+      "voltage_min_mV": -69.24665135446645,
+      "voltage_max_mV": -43.47840953086654,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "a008_c_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 11,
+      "P1_spikes": 1,
+      "broad_P1_spikes": 54,
+      "mAL_spikes": 112,
+      "network_spikes": 6199,
+      "active_neurons": 1428,
+      "events": 1124,
+      "voltage_min_mV": -69.31625446152744,
+      "voltage_max_mV": -43.92242709393477,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "in11a_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 12,
+      "P1_spikes": 1,
+      "broad_P1_spikes": 55,
+      "mAL_spikes": 95,
+      "network_spikes": 5150,
+      "active_neurons": 1112,
+      "events": 1073,
+      "voltage_min_mV": -69.38823335169221,
+      "voltage_max_mV": -43.57996855560631,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "in11a_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 13,
+      "P1_spikes": 0,
+      "broad_P1_spikes": 51,
+      "mAL_spikes": 94,
+      "network_spikes": 5075,
+      "active_neurons": 1305,
+      "events": 1060,
+      "voltage_min_mV": -69.36000141435291,
+      "voltage_max_mV": -43.746328348115334,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "in11a_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 11,
+      "P1_spikes": 18,
+      "broad_P1_spikes": 41,
+      "mAL_spikes": 44,
+      "network_spikes": 7898,
+      "active_neurons": 2143,
+      "events": 1088,
+      "voltage_min_mV": -69.17163334595135,
+      "voltage_max_mV": -43.76044812711283,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "in11a_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 12,
+      "P1_spikes": 19,
+      "broad_P1_spikes": 47,
+      "mAL_spikes": 45,
+      "network_spikes": 7363,
+      "active_neurons": 1956,
+      "events": 1061,
+      "voltage_min_mV": -69.37715739063157,
+      "voltage_max_mV": -43.86913660096352,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "in11a_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 13,
+      "P1_spikes": 20,
+      "broad_P1_spikes": 43,
+      "mAL_spikes": 46,
+      "network_spikes": 6981,
+      "active_neurons": 1799,
+      "events": 1111,
+      "voltage_min_mV": -69.3169854300423,
+      "voltage_max_mV": -43.73697876570645,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "in11a_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 11,
+      "P1_spikes": 10,
+      "broad_P1_spikes": 83,
+      "mAL_spikes": 122,
+      "network_spikes": 7049,
+      "active_neurons": 1791,
+      "events": 1124,
+      "voltage_min_mV": -69.46999570802662,
+      "voltage_max_mV": -43.42353866421216,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "in11a_bc_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 12,
+      "P1_spikes": 9,
+      "broad_P1_spikes": 81,
+      "mAL_spikes": 113,
+      "network_spikes": 5857,
+      "active_neurons": 1483,
+      "events": 1073,
+      "voltage_min_mV": -69.21801402230967,
+      "voltage_max_mV": -43.96925701103263,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "in11a_bc_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 13,
+      "P1_spikes": 5,
+      "broad_P1_spikes": 72,
+      "mAL_spikes": 88,
+      "network_spikes": 45106,
+      "active_neurons": 5922,
+      "events": 1060,
+      "voltage_min_mV": -69.34229549252623,
+      "voltage_max_mV": -41.2778900889181,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "in11a_bc_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 11,
+      "P1_spikes": 18,
+      "broad_P1_spikes": 41,
+      "mAL_spikes": 44,
+      "network_spikes": 7898,
+      "active_neurons": 2143,
+      "events": 1088,
+      "voltage_min_mV": -69.17163334595135,
+      "voltage_max_mV": -43.76044812711283,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "in11a_bc_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 12,
+      "P1_spikes": 19,
+      "broad_P1_spikes": 47,
+      "mAL_spikes": 45,
+      "network_spikes": 7363,
+      "active_neurons": 1956,
+      "events": 1061,
+      "voltage_min_mV": -69.37715739063157,
+      "voltage_max_mV": -43.86913660096352,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "in11a_bc_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 13,
+      "P1_spikes": 20,
+      "broad_P1_spikes": 43,
+      "mAL_spikes": 46,
+      "network_spikes": 6981,
+      "active_neurons": 1799,
+      "events": 1111,
+      "voltage_min_mV": -69.3169854300423,
+      "voltage_max_mV": -43.73697876570645,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "in11a_bc_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 11,
+      "P1_spikes": 0,
+      "broad_P1_spikes": 55,
+      "mAL_spikes": 111,
+      "network_spikes": 26385,
+      "active_neurons": 5353,
+      "events": 1124,
+      "voltage_min_mV": -69.32330091116901,
+      "voltage_max_mV": -41.17437900208738,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "d_g25_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 12,
+      "P1_spikes": 3,
+      "broad_P1_spikes": 53,
+      "mAL_spikes": 111,
+      "network_spikes": 6527,
+      "active_neurons": 1797,
+      "events": 1073,
+      "voltage_min_mV": -69.31565771119396,
+      "voltage_max_mV": -43.92242709393477,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "d_g25_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 13,
+      "P1_spikes": 0,
+      "broad_P1_spikes": 57,
+      "mAL_spikes": 94,
+      "network_spikes": 5401,
+      "active_neurons": 1354,
+      "events": 1060,
+      "voltage_min_mV": -69.2879849876516,
+      "voltage_max_mV": -43.81545819234713,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "d_g25_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 11,
+      "P1_spikes": 16,
+      "broad_P1_spikes": 46,
+      "mAL_spikes": 41,
+      "network_spikes": 6844,
+      "active_neurons": 1896,
+      "events": 1088,
+      "voltage_min_mV": -69.20251095825768,
+      "voltage_max_mV": -43.46172305153349,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "d_g25_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 12,
+      "P1_spikes": 18,
+      "broad_P1_spikes": 46,
+      "mAL_spikes": 47,
+      "network_spikes": 7276,
+      "active_neurons": 1900,
+      "events": 1061,
+      "voltage_min_mV": -69.30891675217742,
+      "voltage_max_mV": -43.72731668054451,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "d_g25_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 13,
+      "P1_spikes": 20,
+      "broad_P1_spikes": 52,
+      "mAL_spikes": 47,
+      "network_spikes": 7111,
+      "active_neurons": 1740,
+      "events": 1111,
+      "voltage_min_mV": -69.24665135446645,
+      "voltage_max_mV": -43.47840953086654,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "d_g25_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 11,
+      "P1_spikes": 0,
+      "broad_P1_spikes": 56,
+      "mAL_spikes": 109,
+      "network_spikes": 22809,
+      "active_neurons": 5115,
+      "events": 1124,
+      "voltage_min_mV": -69.28201290680795,
+      "voltage_max_mV": -40.5926747713286,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "a008_in11a_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 12,
+      "P1_spikes": 0,
+      "broad_P1_spikes": 59,
+      "mAL_spikes": 96,
+      "network_spikes": 34647,
+      "active_neurons": 5360,
+      "events": 1073,
+      "voltage_min_mV": -69.45900176369643,
+      "voltage_max_mV": -40.670923588141505,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "a008_in11a_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_male",
+      "seed": 13,
+      "P1_spikes": 0,
+      "broad_P1_spikes": 56,
+      "mAL_spikes": 86,
+      "network_spikes": 27677,
+      "active_neurons": 5354,
+      "events": 1060,
+      "voltage_min_mV": -69.27141151283396,
+      "voltage_max_mV": -40.3113363360035,
+      "n_input_cells": 37,
+      "block": "S2",
+      "condition": "a008_in11a_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 11,
+      "P1_spikes": 18,
+      "broad_P1_spikes": 41,
+      "mAL_spikes": 44,
+      "network_spikes": 7898,
+      "active_neurons": 2143,
+      "events": 1088,
+      "voltage_min_mV": -69.17163334595135,
+      "voltage_max_mV": -43.76044812711283,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "a008_in11a_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 12,
+      "P1_spikes": 19,
+      "broad_P1_spikes": 47,
+      "mAL_spikes": 45,
+      "network_spikes": 7363,
+      "active_neurons": 1956,
+      "events": 1061,
+      "voltage_min_mV": -69.37715739063157,
+      "voltage_max_mV": -43.86913660096352,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "a008_in11a_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    },
+    {
+      "input": "candidate_female",
+      "seed": 13,
+      "P1_spikes": 20,
+      "broad_P1_spikes": 43,
+      "mAL_spikes": 46,
+      "network_spikes": 6981,
+      "active_neurons": 1799,
+      "events": 1111,
+      "voltage_min_mV": -69.3169854300423,
+      "voltage_max_mV": -43.73697876570645,
+      "n_input_cells": 27,
+      "block": "S2",
+      "condition": "a008_in11a_mAL",
+      "mal_silence": true,
+      "sign_set": []
+    }
+  ],
+  "summary": [
+    {
+      "block": "S1",
+      "condition": "base_WT",
+      "male_P1": [
+        0,
+        0,
+        0
+      ],
+      "female_P1": [
+        11,
+        8,
+        8
+      ],
+      "male_broad": [
+        48,
+        45,
+        42
+      ],
+      "female_broad": [
+        30,
+        39,
+        36
+      ],
+      "mean_preference": -0.9999999998863637,
+      "male_gt_female_all_seeds": false,
+      "female_bit_identical_to_ref": null
+    },
+    {
+      "block": "S1",
+      "condition": "base_mAL",
+      "male_P1": [
+        4,
+        5,
+        1
+      ],
+      "female_P1": [
+        18,
+        18,
+        20
+      ],
+      "male_broad": [
+        55,
+        51,
+        52
+      ],
+      "female_broad": [
+        41,
+        45,
+        51
+      ],
+      "mean_preference": -0.7021143107777682,
+      "male_gt_female_all_seeds": false,
+      "female_bit_identical_to_ref": null
+    },
+    {
+      "block": "S1",
+      "condition": "bc_exc_WT",
+      "male_P1": [
+        14,
+        11,
+        11
+      ],
+      "female_P1": [
+        11,
+        8,
+        8
+      ],
+      "male_broad": [
+        75,
+        73,
+        66
+      ],
+      "female_broad": [
+        30,
+        39,
+        36
+      ],
+      "mean_preference": 0.14526315788759667,
+      "male_gt_female_all_seeds": true,
+      "female_bit_identical_to_ref": null
+    },
+    {
+      "block": "S1",
+      "condition": "bc_exc_mAL",
+      "male_P1": [
+        30,
+        28,
+        20
+      ],
+      "female_P1": [
+        18,
+        18,
+        20
+      ],
+      "male_broad": [
+        88,
+        91,
+        84
+      ],
+      "female_broad": [
+        41,
+        45,
+        51
+      ],
+      "mean_preference": 0.15579710144596395,
+      "male_gt_female_all_seeds": false,
+      "female_bit_identical_to_ref": null
+    },
+    {
+      "block": "S1",
+      "condition": "bc_zero_WT",
+      "male_P1": [
+        0,
+        0,
+        1
+      ],
+      "female_P1": [
+        11,
+        8,
+        8
+      ],
+      "male_broad": [
+        58,
+        56,
+        49
+      ],
+      "female_broad": [
+        30,
+        39,
+        36
+      ],
+      "mean_preference": -0.9259259258251497,
+      "male_gt_female_all_seeds": false,
+      "female_bit_identical_to_ref": null
+    },
+    {
+      "block": "S1",
+      "condition": "bc_zero_mAL",
+      "male_P1": [
+        10,
+        11,
+        3
+      ],
+      "female_P1": [
+        18,
+        18,
+        20
+      ],
+      "male_broad": [
+        75,
+        66,
+        64
+      ],
+      "female_broad": [
+        41,
+        45,
+        51
+      ],
+      "mean_preference": -0.4220746769303528,
+      "male_gt_female_all_seeds": false,
+      "female_bit_identical_to_ref": null
+    },
+    {
+      "block": "S1",
+      "condition": "bcg_exc_WT",
+      "male_P1": [
+        14,
+        11,
+        11
+      ],
+      "female_P1": [
+        0,
+        0,
+        0
+      ],
+      "male_broad": [
+        75,
+        73,
+        66
+      ],
+      "female_broad": [
+        117,
+        122,
+        129
+      ],
+      "mean_preference": 0.9999999999155844,
+      "male_gt_female_all_seeds": true,
+      "female_bit_identical_to_ref": null
+    },
+    {
+      "block": "S1",
+      "condition": "bcg_exc_mAL",
+      "male_P1": [
+        30,
+        28,
+        20
+      ],
+      "female_P1": [
+        11,
+        16,
+        15
+      ],
+      "male_broad": [
+        88,
+        91,
+        84
+      ],
+      "female_broad": [
+        157,
+        165,
+        169
+      ],
+      "mean_preference": 0.2929996832363914,
+      "male_gt_female_all_seeds": true,
+      "female_bit_identical_to_ref": null
+    },
+    {
+      "block": "S2",
+      "condition": "WT",
+      "male_P1": [
+        0,
+        0,
+        0
+      ],
+      "female_P1": [
+        11,
+        8,
+        8
+      ],
+      "male_broad": [
+        48,
+        45,
+        42
+      ],
+      "female_broad": [
+        30,
+        39,
+        36
+      ],
+      "mean_preference": -0.9999999998863637,
+      "male_gt_female_all_seeds": false,
+      "female_bit_identical_to_ref": true,
+      "delta_male_vs_ref": [
+        0,
+        0,
+        0
+      ],
+      "delta_female_vs_ref": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "block": "S2",
+      "condition": "a008_bc_mAL",
+      "male_P1": [
+        8,
+        6,
+        4
+      ],
+      "female_P1": [
+        18,
+        18,
+        20
+      ],
+      "male_broad": [
+        76,
+        67,
+        61
+      ],
+      "female_broad": [
+        41,
+        45,
+        51
+      ],
+      "mean_preference": -0.5170940170728824,
+      "male_gt_female_all_seeds": false,
+      "female_bit_identical_to_ref": true,
+      "delta_male_vs_ref": [
+        4,
+        1,
+        3
+      ],
+      "delta_female_vs_ref": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "block": "S2",
+      "condition": "a008_c_mAL",
+      "male_P1": [
+        7,
+        10,
+        4
+      ],
+      "female_P1": [
+        18,
+        18,
+        20
+      ],
+      "male_broad": [
+        72,
+        73,
+        61
+      ],
+      "female_broad": [
+        41,
+        45,
+        51
+      ],
+      "mean_preference": -0.4641269841084568,
+      "male_gt_female_all_seeds": false,
+      "female_bit_identical_to_ref": true,
+      "delta_male_vs_ref": [
+        3,
+        5,
+        3
+      ],
+      "delta_female_vs_ref": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "block": "S2",
+      "condition": "a008_in11a_mAL",
+      "male_P1": [
+        0,
+        0,
+        0
+      ],
+      "female_P1": [
+        18,
+        19,
+        20
+      ],
+      "male_broad": [
+        56,
+        59,
+        56
+      ],
+      "female_broad": [
+        41,
+        47,
+        43
+      ],
+      "mean_preference": -0.999999999947271,
+      "male_gt_female_all_seeds": false,
+      "female_bit_identical_to_ref": false,
+      "delta_male_vs_ref": [
+        -4,
+        -5,
+        -1
+      ],
+      "delta_female_vs_ref": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "block": "S2",
+      "condition": "a008_mAL",
+      "male_P1": [
+        1,
+        2,
+        1
+      ],
+      "female_P1": [
+        18,
+        18,
+        20
+      ],
+      "male_broad": [
+        58,
+        50,
+        49
+      ],
+      "female_broad": [
+        41,
+        45,
+        51
+      ],
+      "mean_preference": -0.8664995822456643,
+      "male_gt_female_all_seeds": false,
+      "female_bit_identical_to_ref": true,
+      "delta_male_vs_ref": [
+        -3,
+        -3,
+        0
+      ],
+      "delta_female_vs_ref": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "block": "S2",
+      "condition": "bc_mAL",
+      "male_P1": [
+        10,
+        11,
+        3
+      ],
+      "female_P1": [
+        18,
+        18,
+        20
+      ],
+      "male_broad": [
+        75,
+        66,
+        64
+      ],
+      "female_broad": [
+        41,
+        45,
+        51
+      ],
+      "mean_preference": -0.4220746769303528,
+      "male_gt_female_all_seeds": false,
+      "female_bit_identical_to_ref": true,
+      "delta_male_vs_ref": [
+        6,
+        6,
+        2
+      ],
+      "delta_female_vs_ref": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "block": "S2",
+      "condition": "bcd_mAL",
+      "male_P1": [
+        9,
+        9,
+        5
+      ],
+      "female_P1": [
+        18,
+        18,
+        20
+      ],
+      "male_broad": [
+        85,
+        68,
+        71
+      ],
+      "female_broad": [
+        46,
+        46,
+        52
+      ],
+      "mean_preference": -0.42222222220599176,
+      "male_gt_female_all_seeds": false,
+      "female_bit_identical_to_ref": true,
+      "delta_male_vs_ref": [
+        5,
+        4,
+        4
+      ],
+      "delta_female_vs_ref": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "block": "S2",
+      "condition": "c_mAL",
+      "male_P1": [
+        10,
+        6,
+        3
+      ],
+      "female_P1": [
+        18,
+        18,
+        20
+      ],
+      "male_broad": [
+        70,
+        76,
+        64
+      ],
+      "female_broad": [
+        41,
+        45,
+        51
+      ],
+      "mean_preference": -0.508281573477907,
+      "male_gt_female_all_seeds": false,
+      "female_bit_identical_to_ref": true,
+      "delta_male_vs_ref": [
+        6,
+        1,
+        2
+      ],
+      "delta_female_vs_ref": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "block": "S2",
+      "condition": "d_g25_mAL",
+      "male_P1": [
+        0,
+        3,
+        0
+      ],
+      "female_P1": [
+        16,
+        18,
+        20
+      ],
+      "male_broad": [
+        55,
+        53,
+        57
+      ],
+      "female_broad": [
+        46,
+        46,
+        52
+      ],
+      "mean_preference": -0.9047619047130668,
+      "male_gt_female_all_seeds": false,
+      "female_bit_identical_to_ref": false,
+      "delta_male_vs_ref": [
+        -4,
+        -2,
+        -1
+      ],
+      "delta_female_vs_ref": [
+        -2,
+        0,
+        0
+      ]
+    },
+    {
+      "block": "S2",
+      "condition": "in11a_bc_mAL",
+      "male_P1": [
+        10,
+        9,
+        5
+      ],
+      "female_P1": [
+        18,
+        19,
+        20
+      ],
+      "male_broad": [
+        83,
+        81,
+        72
+      ],
+      "female_broad": [
+        41,
+        47,
+        43
+      ],
+      "mean_preference": -0.41428571427006117,
+      "male_gt_female_all_seeds": false,
+      "female_bit_identical_to_ref": false,
+      "delta_male_vs_ref": [
+        6,
+        4,
+        4
+      ],
+      "delta_female_vs_ref": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "block": "S2",
+      "condition": "in11a_mAL",
+      "male_P1": [
+        1,
+        1,
+        0
+      ],
+      "female_P1": [
+        18,
+        19,
+        20
+      ],
+      "male_broad": [
+        54,
+        55,
+        51
+      ],
+      "female_broad": [
+        41,
+        47,
+        43
+      ],
+      "mean_preference": -0.9315789473210572,
+      "male_gt_female_all_seeds": false,
+      "female_bit_identical_to_ref": false,
+      "delta_male_vs_ref": [
+        -3,
+        -4,
+        -1
+      ],
+      "delta_female_vs_ref": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "block": "S2",
+      "condition": "mAL",
+      "male_P1": [
+        4,
+        5,
+        1
+      ],
+      "female_P1": [
+        18,
+        18,
+        20
+      ],
+      "male_broad": [
+        55,
+        51,
+        52
+      ],
+      "female_broad": [
+        41,
+        45,
+        51
+      ],
+      "mean_preference": -0.7021143107777682,
+      "male_gt_female_all_seeds": false,
+      "female_bit_identical_to_ref": true,
+      "delta_male_vs_ref": [
+        0,
+        0,
+        0
+      ],
+      "delta_female_vs_ref": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "phenotype_C_conditions": [
+    "bc_exc_WT",
+    "bcg_exc_WT",
+    "bcg_exc_mAL"
+  ],
+  "seconds": 157.72102445783094
+}

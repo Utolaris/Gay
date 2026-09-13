@@ -163,11 +163,18 @@ def load_ex_network(data_dir: Path, e8_mult: float = 1.0) -> Network:
     return Network(graph=graph, signs=signs, ids=ids, groups=groups)
 
 
+_TYPE_INDEX_CACHE: dict[tuple[str, tuple[str, ...]], np.ndarray] = {}
+
+
 def type_indices(net: Network, data_dir: Path, types: list[str]) -> np.ndarray:
+    key = (str(Path(data_dir).resolve()), tuple(types))
+    cached = _TYPE_INDEX_CACHE.get(key)
+    if cached is not None:
+        return cached
     ann = feather.read_table(Path(data_dir) / "annotations.feather").to_pylist()
     by_id = {r["bodyId"]: r for r in ann}
     want = set(types)
-    return np.asarray(
+    arr = np.asarray(
         [
             i
             for i, bid in enumerate(net.ids)
@@ -175,6 +182,8 @@ def type_indices(net: Network, data_dir: Path, types: list[str]) -> np.ndarray:
         ],
         dtype=np.int32,
     )
+    _TYPE_INDEX_CACHE[key] = arr
+    return arr
 
 
 def make_events_with_maps(
@@ -226,6 +235,7 @@ def run_ex(
     events: np.ndarray | None = None,
     encoding: str = "full",
     type_maps: dict[str, np.ndarray] | None = None,
+    signs: np.ndarray | None = None,
 ) -> dict:
     n = net.n
     if inputs is None or events is None:
@@ -246,11 +256,12 @@ def run_ex(
     g = np.ones(n, dtype=np.float64) if gain is None else gain
     ton = np.zeros(n, dtype=np.float64) if tonic is None else tonic
     relay = np.zeros(n, dtype=np.bool_) if male_relay_mask is None else male_relay_mask
+    use_signs = net.signs if signs is None else signs
     counts, vmin, vmax = simulate_ex(
         net.graph.indptr,
         net.graph.indices,
         net.graph.data,
-        net.signs,
+        use_signs,
         inputs,
         events,
         g,
