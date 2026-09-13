@@ -29,6 +29,9 @@ local interventions: [BC_HOP3_PROTOCOL.md](BC_HOP3_PROTOCOL.md),
 [BC_HOP3_REPORT.md](BC_HOP3_REPORT.md), `bc-hop3-evidence.json`,
 `bc-hop3-results.json`.
 
+Sign adjudication (is b/c output excitatory or inhibitory?):
+[BC_SIGN_ADJUDICATION.md](BC_SIGN_ADJUDICATION.md).
+
 ## Setup
 
 ```sh
