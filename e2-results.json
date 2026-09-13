@@ -1,0 +1,1453 @@
+{
+  "kind": "E2_male_excitatory_relay_amplification",
+  "protocol_sha256": "0cb85db6693b9d8bed1213aca41a818320c99a39cf1e87faaca3f3d41fea0172",
+  "code_sha256": "e8e5379e2fbc94e75ed7103526e9e7a5c257b6be395e1f431883cd0833be5156",
+  "tonic_mV": 6.0,
+  "reversal_mV": -70.0,
+  "seeds": [
+    11,
+    12,
+    13
+  ],
+  "female_pathway_intact": true,
+  "relay_sizes": {
+    "vAB3ef": 4,
+    "AN03A008": 2,
+    "AN09B002": 2,
+    "all4": 8
+  },
+  "results": [
+    {
+      "condition": "WT",
+      "mal_silence": false,
+      "relay_types": [],
+      "tonic_mV": 0.0,
+      "input": "candidate_male",
+      "seed": 11,
+      "events": 1124,
+      "event_sha256": "2e42b9ae66fc046ea1a36a3f03298e2e59a4ba418aaa0d2d3037536255ccc7ec",
+      "P1_spikes": 0,
+      "broad_P1_spikes": 48,
+      "mAL_spikes": 77,
+      "network_spikes": 6844,
+      "active_neurons": 1970,
+      "seconds": 3.688
+    },
+    {
+      "condition": "WT",
+      "mal_silence": false,
+      "relay_types": [],
+      "tonic_mV": 0.0,
+      "input": "candidate_male",
+      "seed": 12,
+      "events": 1073,
+      "event_sha256": "87f7b939216edeaf4a7465c67daaf4cd42a72b15148eae1c54cce7e0e99d9f08",
+      "P1_spikes": 0,
+      "broad_P1_spikes": 45,
+      "mAL_spikes": 79,
+      "network_spikes": 14817,
+      "active_neurons": 4603,
+      "seconds": 2.98
+    },
+    {
+      "condition": "WT",
+      "mal_silence": false,
+      "relay_types": [],
+      "tonic_mV": 0.0,
+      "input": "candidate_male",
+      "seed": 13,
+      "events": 1060,
+      "event_sha256": "f5363f99ad44cf54d8b2ca3194f8e27dd417a8621b0dcb25eb17fe73533aba88",
+      "P1_spikes": 0,
+      "broad_P1_spikes": 42,
+      "mAL_spikes": 80,
+      "network_spikes": 7040,
+      "active_neurons": 1977,
+      "seconds": 2.969
+    },
+    {
+      "condition": "WT",
+      "mal_silence": false,
+      "relay_types": [],
+      "tonic_mV": 0.0,
+      "input": "candidate_female",
+      "seed": 11,
+      "events": 1088,
+      "event_sha256": "ad0d3f475ef107204625c0846b406ba233beff7103cc4e18e1811133fbe9d1d9",
+      "P1_spikes": 11,
+      "broad_P1_spikes": 30,
+      "mAL_spikes": 42,
+      "network_spikes": 10193,
+      "active_neurons": 2656,
+      "seconds": 2.975
+    },
+    {
+      "condition": "WT",
+      "mal_silence": false,
+      "relay_types": [],
+      "tonic_mV": 0.0,
+      "input": "candidate_female",
+      "seed": 12,
+      "events": 1061,
+      "event_sha256": "27ca7f8d2cc7b845b25f762231b67a74478587ab3977a54c0ab41d520310a220",
+      "P1_spikes": 8,
+      "broad_P1_spikes": 39,
+      "mAL_spikes": 45,
+      "network_spikes": 6627,
+      "active_neurons": 1807,
+      "seconds": 2.981
+    },
+    {
+      "condition": "WT",
+      "mal_silence": false,
+      "relay_types": [],
+      "tonic_mV": 0.0,
+      "input": "candidate_female",
+      "seed": 13,
+      "events": 1111,
+      "event_sha256": "d0000165766304708a1914b57672ac1ffa2407705db1a671d1b0e832dede33a2",
+      "P1_spikes": 8,
+      "broad_P1_spikes": 36,
+      "mAL_spikes": 44,
+      "network_spikes": 7126,
+      "active_neurons": 1861,
+      "seconds": 2.96
+    },
+    {
+      "condition": "mAL_silence",
+      "mal_silence": true,
+      "relay_types": [],
+      "tonic_mV": 0.0,
+      "input": "candidate_male",
+      "seed": 11,
+      "events": 1124,
+      "event_sha256": "2e42b9ae66fc046ea1a36a3f03298e2e59a4ba418aaa0d2d3037536255ccc7ec",
+      "P1_spikes": 4,
+      "broad_P1_spikes": 55,
+      "mAL_spikes": 115,
+      "network_spikes": 6108,
+      "active_neurons": 1388,
+      "seconds": 2.981
+    },
+    {
+      "condition": "mAL_silence",
+      "mal_silence": true,
+      "relay_types": [],
+      "tonic_mV": 0.0,
+      "input": "candidate_male",
+      "seed": 12,
+      "events": 1073,
+      "event_sha256": "87f7b939216edeaf4a7465c67daaf4cd42a72b15148eae1c54cce7e0e99d9f08",
+      "P1_spikes": 5,
+      "broad_P1_spikes": 51,
+      "mAL_spikes": 107,
+      "network_spikes": 5330,
+      "active_neurons": 1423,
+      "seconds": 2.887
+    },
+    {
+      "condition": "mAL_silence",
+      "mal_silence": true,
+      "relay_types": [],
+      "tonic_mV": 0.0,
+      "input": "candidate_male",
+      "seed": 13,
+      "events": 1060,
+      "event_sha256": "f5363f99ad44cf54d8b2ca3194f8e27dd417a8621b0dcb25eb17fe73533aba88",
+      "P1_spikes": 1,
+      "broad_P1_spikes": 52,
+      "mAL_spikes": 92,
+      "network_spikes": 5139,
+      "active_neurons": 1601,
+      "seconds": 2.884
+    },
+    {
+      "condition": "mAL_silence",
+      "mal_silence": true,
+      "relay_types": [],
+      "tonic_mV": 0.0,
+      "input": "candidate_female",
+      "seed": 11,
+      "events": 1088,
+      "event_sha256": "ad0d3f475ef107204625c0846b406ba233beff7103cc4e18e1811133fbe9d1d9",
+      "P1_spikes": 18,
+      "broad_P1_spikes": 41,
+      "mAL_spikes": 47,
+      "network_spikes": 7078,
+      "active_neurons": 1717,
+      "seconds": 2.902
+    },
+    {
+      "condition": "mAL_silence",
+      "mal_silence": true,
+      "relay_types": [],
+      "tonic_mV": 0.0,
+      "input": "candidate_female",
+      "seed": 12,
+      "events": 1061,
+      "event_sha256": "27ca7f8d2cc7b845b25f762231b67a74478587ab3977a54c0ab41d520310a220",
+      "P1_spikes": 18,
+      "broad_P1_spikes": 45,
+      "mAL_spikes": 45,
+      "network_spikes": 7273,
+      "active_neurons": 1901,
+      "seconds": 2.89
+    },
+    {
+      "condition": "mAL_silence",
+      "mal_silence": true,
+      "relay_types": [],
+      "tonic_mV": 0.0,
+      "input": "candidate_female",
+      "seed": 13,
+      "events": 1111,
+      "event_sha256": "d0000165766304708a1914b57672ac1ffa2407705db1a671d1b0e832dede33a2",
+      "P1_spikes": 20,
+      "broad_P1_spikes": 51,
+      "mAL_spikes": 47,
+      "network_spikes": 7107,
+      "active_neurons": 1739,
+      "seconds": 2.887
+    },
+    {
+      "condition": "vAB3ef_tonic6",
+      "mal_silence": false,
+      "relay_types": [
+        "AN09B017e",
+        "AN09B017f"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_male",
+      "seed": 11,
+      "events": 1124,
+      "event_sha256": "2e42b9ae66fc046ea1a36a3f03298e2e59a4ba418aaa0d2d3037536255ccc7ec",
+      "P1_spikes": 0,
+      "broad_P1_spikes": 52,
+      "mAL_spikes": 113,
+      "network_spikes": 5352,
+      "active_neurons": 1395,
+      "seconds": 2.886
+    },
+    {
+      "condition": "vAB3ef_tonic6",
+      "mal_silence": false,
+      "relay_types": [
+        "AN09B017e",
+        "AN09B017f"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_male",
+      "seed": 12,
+      "events": 1073,
+      "event_sha256": "87f7b939216edeaf4a7465c67daaf4cd42a72b15148eae1c54cce7e0e99d9f08",
+      "P1_spikes": 0,
+      "broad_P1_spikes": 51,
+      "mAL_spikes": 101,
+      "network_spikes": 34633,
+      "active_neurons": 5606,
+      "seconds": 2.942
+    },
+    {
+      "condition": "vAB3ef_tonic6",
+      "mal_silence": false,
+      "relay_types": [
+        "AN09B017e",
+        "AN09B017f"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_male",
+      "seed": 13,
+      "events": 1060,
+      "event_sha256": "f5363f99ad44cf54d8b2ca3194f8e27dd417a8621b0dcb25eb17fe73533aba88",
+      "P1_spikes": 0,
+      "broad_P1_spikes": 50,
+      "mAL_spikes": 93,
+      "network_spikes": 6778,
+      "active_neurons": 2300,
+      "seconds": 2.886
+    },
+    {
+      "condition": "vAB3ef_tonic6",
+      "mal_silence": false,
+      "relay_types": [
+        "AN09B017e",
+        "AN09B017f"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_female",
+      "seed": 11,
+      "events": 1088,
+      "event_sha256": "ad0d3f475ef107204625c0846b406ba233beff7103cc4e18e1811133fbe9d1d9",
+      "P1_spikes": 7,
+      "broad_P1_spikes": 41,
+      "mAL_spikes": 53,
+      "network_spikes": 7790,
+      "active_neurons": 1968,
+      "seconds": 2.885
+    },
+    {
+      "condition": "vAB3ef_tonic6",
+      "mal_silence": false,
+      "relay_types": [
+        "AN09B017e",
+        "AN09B017f"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_female",
+      "seed": 12,
+      "events": 1061,
+      "event_sha256": "27ca7f8d2cc7b845b25f762231b67a74478587ab3977a54c0ab41d520310a220",
+      "P1_spikes": 8,
+      "broad_P1_spikes": 38,
+      "mAL_spikes": 52,
+      "network_spikes": 9098,
+      "active_neurons": 2207,
+      "seconds": 2.907
+    },
+    {
+      "condition": "vAB3ef_tonic6",
+      "mal_silence": false,
+      "relay_types": [
+        "AN09B017e",
+        "AN09B017f"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_female",
+      "seed": 13,
+      "events": 1111,
+      "event_sha256": "d0000165766304708a1914b57672ac1ffa2407705db1a671d1b0e832dede33a2",
+      "P1_spikes": 7,
+      "broad_P1_spikes": 37,
+      "mAL_spikes": 54,
+      "network_spikes": 7035,
+      "active_neurons": 1981,
+      "seconds": 2.916
+    },
+    {
+      "condition": "vAB3ef_tonic6_mAL",
+      "mal_silence": true,
+      "relay_types": [
+        "AN09B017e",
+        "AN09B017f"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_male",
+      "seed": 11,
+      "events": 1124,
+      "event_sha256": "2e42b9ae66fc046ea1a36a3f03298e2e59a4ba418aaa0d2d3037536255ccc7ec",
+      "P1_spikes": 3,
+      "broad_P1_spikes": 63,
+      "mAL_spikes": 146,
+      "network_spikes": 24216,
+      "active_neurons": 5704,
+      "seconds": 2.922
+    },
+    {
+      "condition": "vAB3ef_tonic6_mAL",
+      "mal_silence": true,
+      "relay_types": [
+        "AN09B017e",
+        "AN09B017f"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_male",
+      "seed": 12,
+      "events": 1073,
+      "event_sha256": "87f7b939216edeaf4a7465c67daaf4cd42a72b15148eae1c54cce7e0e99d9f08",
+      "P1_spikes": 4,
+      "broad_P1_spikes": 59,
+      "mAL_spikes": 149,
+      "network_spikes": 7562,
+      "active_neurons": 1875,
+      "seconds": 2.9
+    },
+    {
+      "condition": "vAB3ef_tonic6_mAL",
+      "mal_silence": true,
+      "relay_types": [
+        "AN09B017e",
+        "AN09B017f"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_male",
+      "seed": 13,
+      "events": 1060,
+      "event_sha256": "f5363f99ad44cf54d8b2ca3194f8e27dd417a8621b0dcb25eb17fe73533aba88",
+      "P1_spikes": 3,
+      "broad_P1_spikes": 54,
+      "mAL_spikes": 142,
+      "network_spikes": 6163,
+      "active_neurons": 1799,
+      "seconds": 2.885
+    },
+    {
+      "condition": "vAB3ef_tonic6_mAL",
+      "mal_silence": true,
+      "relay_types": [
+        "AN09B017e",
+        "AN09B017f"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_female",
+      "seed": 11,
+      "events": 1088,
+      "event_sha256": "ad0d3f475ef107204625c0846b406ba233beff7103cc4e18e1811133fbe9d1d9",
+      "P1_spikes": 16,
+      "broad_P1_spikes": 45,
+      "mAL_spikes": 55,
+      "network_spikes": 7038,
+      "active_neurons": 1840,
+      "seconds": 2.884
+    },
+    {
+      "condition": "vAB3ef_tonic6_mAL",
+      "mal_silence": true,
+      "relay_types": [
+        "AN09B017e",
+        "AN09B017f"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_female",
+      "seed": 12,
+      "events": 1061,
+      "event_sha256": "27ca7f8d2cc7b845b25f762231b67a74478587ab3977a54c0ab41d520310a220",
+      "P1_spikes": 19,
+      "broad_P1_spikes": 51,
+      "mAL_spikes": 51,
+      "network_spikes": 6762,
+      "active_neurons": 1720,
+      "seconds": 2.908
+    },
+    {
+      "condition": "vAB3ef_tonic6_mAL",
+      "mal_silence": true,
+      "relay_types": [
+        "AN09B017e",
+        "AN09B017f"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_female",
+      "seed": 13,
+      "events": 1111,
+      "event_sha256": "d0000165766304708a1914b57672ac1ffa2407705db1a671d1b0e832dede33a2",
+      "P1_spikes": 20,
+      "broad_P1_spikes": 53,
+      "mAL_spikes": 55,
+      "network_spikes": 7449,
+      "active_neurons": 1840,
+      "seconds": 2.909
+    },
+    {
+      "condition": "AN03A008_tonic6",
+      "mal_silence": false,
+      "relay_types": [
+        "AN03A008"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_male",
+      "seed": 11,
+      "events": 1124,
+      "event_sha256": "2e42b9ae66fc046ea1a36a3f03298e2e59a4ba418aaa0d2d3037536255ccc7ec",
+      "P1_spikes": 0,
+      "broad_P1_spikes": 48,
+      "mAL_spikes": 84,
+      "network_spikes": 6083,
+      "active_neurons": 1466,
+      "seconds": 2.885
+    },
+    {
+      "condition": "AN03A008_tonic6",
+      "mal_silence": false,
+      "relay_types": [
+        "AN03A008"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_male",
+      "seed": 12,
+      "events": 1073,
+      "event_sha256": "87f7b939216edeaf4a7465c67daaf4cd42a72b15148eae1c54cce7e0e99d9f08",
+      "P1_spikes": 0,
+      "broad_P1_spikes": 45,
+      "mAL_spikes": 81,
+      "network_spikes": 4828,
+      "active_neurons": 1117,
+      "seconds": 2.896
+    },
+    {
+      "condition": "AN03A008_tonic6",
+      "mal_silence": false,
+      "relay_types": [
+        "AN03A008"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_male",
+      "seed": 13,
+      "events": 1060,
+      "event_sha256": "f5363f99ad44cf54d8b2ca3194f8e27dd417a8621b0dcb25eb17fe73533aba88",
+      "P1_spikes": 0,
+      "broad_P1_spikes": 47,
+      "mAL_spikes": 76,
+      "network_spikes": 4837,
+      "active_neurons": 1109,
+      "seconds": 2.895
+    },
+    {
+      "condition": "AN03A008_tonic6",
+      "mal_silence": false,
+      "relay_types": [
+        "AN03A008"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_female",
+      "seed": 11,
+      "events": 1088,
+      "event_sha256": "ad0d3f475ef107204625c0846b406ba233beff7103cc4e18e1811133fbe9d1d9",
+      "P1_spikes": 11,
+      "broad_P1_spikes": 30,
+      "mAL_spikes": 42,
+      "network_spikes": 10193,
+      "active_neurons": 2656,
+      "seconds": 2.883
+    },
+    {
+      "condition": "AN03A008_tonic6",
+      "mal_silence": false,
+      "relay_types": [
+        "AN03A008"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_female",
+      "seed": 12,
+      "events": 1061,
+      "event_sha256": "27ca7f8d2cc7b845b25f762231b67a74478587ab3977a54c0ab41d520310a220",
+      "P1_spikes": 8,
+      "broad_P1_spikes": 39,
+      "mAL_spikes": 45,
+      "network_spikes": 6627,
+      "active_neurons": 1807,
+      "seconds": 2.882
+    },
+    {
+      "condition": "AN03A008_tonic6",
+      "mal_silence": false,
+      "relay_types": [
+        "AN03A008"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_female",
+      "seed": 13,
+      "events": 1111,
+      "event_sha256": "d0000165766304708a1914b57672ac1ffa2407705db1a671d1b0e832dede33a2",
+      "P1_spikes": 8,
+      "broad_P1_spikes": 36,
+      "mAL_spikes": 44,
+      "network_spikes": 7126,
+      "active_neurons": 1861,
+      "seconds": 2.934
+    },
+    {
+      "condition": "AN03A008_tonic6_mAL",
+      "mal_silence": true,
+      "relay_types": [
+        "AN03A008"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_male",
+      "seed": 11,
+      "events": 1124,
+      "event_sha256": "2e42b9ae66fc046ea1a36a3f03298e2e59a4ba418aaa0d2d3037536255ccc7ec",
+      "P1_spikes": 1,
+      "broad_P1_spikes": 58,
+      "mAL_spikes": 107,
+      "network_spikes": 5856,
+      "active_neurons": 1249,
+      "seconds": 2.889
+    },
+    {
+      "condition": "AN03A008_tonic6_mAL",
+      "mal_silence": true,
+      "relay_types": [
+        "AN03A008"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_male",
+      "seed": 12,
+      "events": 1073,
+      "event_sha256": "87f7b939216edeaf4a7465c67daaf4cd42a72b15148eae1c54cce7e0e99d9f08",
+      "P1_spikes": 2,
+      "broad_P1_spikes": 50,
+      "mAL_spikes": 105,
+      "network_spikes": 5087,
+      "active_neurons": 1029,
+      "seconds": 2.903
+    },
+    {
+      "condition": "AN03A008_tonic6_mAL",
+      "mal_silence": true,
+      "relay_types": [
+        "AN03A008"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_male",
+      "seed": 13,
+      "events": 1060,
+      "event_sha256": "f5363f99ad44cf54d8b2ca3194f8e27dd417a8621b0dcb25eb17fe73533aba88",
+      "P1_spikes": 1,
+      "broad_P1_spikes": 49,
+      "mAL_spikes": 98,
+      "network_spikes": 18375,
+      "active_neurons": 4540,
+      "seconds": 2.926
+    },
+    {
+      "condition": "AN03A008_tonic6_mAL",
+      "mal_silence": true,
+      "relay_types": [
+        "AN03A008"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_female",
+      "seed": 11,
+      "events": 1088,
+      "event_sha256": "ad0d3f475ef107204625c0846b406ba233beff7103cc4e18e1811133fbe9d1d9",
+      "P1_spikes": 18,
+      "broad_P1_spikes": 41,
+      "mAL_spikes": 47,
+      "network_spikes": 7078,
+      "active_neurons": 1717,
+      "seconds": 2.883
+    },
+    {
+      "condition": "AN03A008_tonic6_mAL",
+      "mal_silence": true,
+      "relay_types": [
+        "AN03A008"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_female",
+      "seed": 12,
+      "events": 1061,
+      "event_sha256": "27ca7f8d2cc7b845b25f762231b67a74478587ab3977a54c0ab41d520310a220",
+      "P1_spikes": 18,
+      "broad_P1_spikes": 45,
+      "mAL_spikes": 45,
+      "network_spikes": 7273,
+      "active_neurons": 1901,
+      "seconds": 2.886
+    },
+    {
+      "condition": "AN03A008_tonic6_mAL",
+      "mal_silence": true,
+      "relay_types": [
+        "AN03A008"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_female",
+      "seed": 13,
+      "events": 1111,
+      "event_sha256": "d0000165766304708a1914b57672ac1ffa2407705db1a671d1b0e832dede33a2",
+      "P1_spikes": 20,
+      "broad_P1_spikes": 51,
+      "mAL_spikes": 47,
+      "network_spikes": 7107,
+      "active_neurons": 1739,
+      "seconds": 2.883
+    },
+    {
+      "condition": "AN09B002_tonic6",
+      "mal_silence": false,
+      "relay_types": [
+        "AN09B002"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_male",
+      "seed": 11,
+      "events": 1124,
+      "event_sha256": "2e42b9ae66fc046ea1a36a3f03298e2e59a4ba418aaa0d2d3037536255ccc7ec",
+      "P1_spikes": 0,
+      "broad_P1_spikes": 51,
+      "mAL_spikes": 79,
+      "network_spikes": 5470,
+      "active_neurons": 1243,
+      "seconds": 2.889
+    },
+    {
+      "condition": "AN09B002_tonic6",
+      "mal_silence": false,
+      "relay_types": [
+        "AN09B002"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_male",
+      "seed": 12,
+      "events": 1073,
+      "event_sha256": "87f7b939216edeaf4a7465c67daaf4cd42a72b15148eae1c54cce7e0e99d9f08",
+      "P1_spikes": 0,
+      "broad_P1_spikes": 47,
+      "mAL_spikes": 78,
+      "network_spikes": 4398,
+      "active_neurons": 1023,
+      "seconds": 2.901
+    },
+    {
+      "condition": "AN09B002_tonic6",
+      "mal_silence": false,
+      "relay_types": [
+        "AN09B002"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_male",
+      "seed": 13,
+      "events": 1060,
+      "event_sha256": "f5363f99ad44cf54d8b2ca3194f8e27dd417a8621b0dcb25eb17fe73533aba88",
+      "P1_spikes": 0,
+      "broad_P1_spikes": 42,
+      "mAL_spikes": 80,
+      "network_spikes": 7040,
+      "active_neurons": 1977,
+      "seconds": 2.883
+    },
+    {
+      "condition": "AN09B002_tonic6",
+      "mal_silence": false,
+      "relay_types": [
+        "AN09B002"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_female",
+      "seed": 11,
+      "events": 1088,
+      "event_sha256": "ad0d3f475ef107204625c0846b406ba233beff7103cc4e18e1811133fbe9d1d9",
+      "P1_spikes": 11,
+      "broad_P1_spikes": 30,
+      "mAL_spikes": 42,
+      "network_spikes": 10193,
+      "active_neurons": 2656,
+      "seconds": 2.888
+    },
+    {
+      "condition": "AN09B002_tonic6",
+      "mal_silence": false,
+      "relay_types": [
+        "AN09B002"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_female",
+      "seed": 12,
+      "events": 1061,
+      "event_sha256": "27ca7f8d2cc7b845b25f762231b67a74478587ab3977a54c0ab41d520310a220",
+      "P1_spikes": 8,
+      "broad_P1_spikes": 39,
+      "mAL_spikes": 45,
+      "network_spikes": 6627,
+      "active_neurons": 1807,
+      "seconds": 2.885
+    },
+    {
+      "condition": "AN09B002_tonic6",
+      "mal_silence": false,
+      "relay_types": [
+        "AN09B002"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_female",
+      "seed": 13,
+      "events": 1111,
+      "event_sha256": "d0000165766304708a1914b57672ac1ffa2407705db1a671d1b0e832dede33a2",
+      "P1_spikes": 8,
+      "broad_P1_spikes": 36,
+      "mAL_spikes": 44,
+      "network_spikes": 7126,
+      "active_neurons": 1861,
+      "seconds": 2.906
+    },
+    {
+      "condition": "AN09B002_tonic6_mAL",
+      "mal_silence": true,
+      "relay_types": [
+        "AN09B002"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_male",
+      "seed": 11,
+      "events": 1124,
+      "event_sha256": "2e42b9ae66fc046ea1a36a3f03298e2e59a4ba418aaa0d2d3037536255ccc7ec",
+      "P1_spikes": 4,
+      "broad_P1_spikes": 55,
+      "mAL_spikes": 115,
+      "network_spikes": 6505,
+      "active_neurons": 1604,
+      "seconds": 2.905
+    },
+    {
+      "condition": "AN09B002_tonic6_mAL",
+      "mal_silence": true,
+      "relay_types": [
+        "AN09B002"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_male",
+      "seed": 12,
+      "events": 1073,
+      "event_sha256": "87f7b939216edeaf4a7465c67daaf4cd42a72b15148eae1c54cce7e0e99d9f08",
+      "P1_spikes": 5,
+      "broad_P1_spikes": 51,
+      "mAL_spikes": 107,
+      "network_spikes": 5330,
+      "active_neurons": 1423,
+      "seconds": 2.909
+    },
+    {
+      "condition": "AN09B002_tonic6_mAL",
+      "mal_silence": true,
+      "relay_types": [
+        "AN09B002"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_male",
+      "seed": 13,
+      "events": 1060,
+      "event_sha256": "f5363f99ad44cf54d8b2ca3194f8e27dd417a8621b0dcb25eb17fe73533aba88",
+      "P1_spikes": 1,
+      "broad_P1_spikes": 52,
+      "mAL_spikes": 92,
+      "network_spikes": 5139,
+      "active_neurons": 1601,
+      "seconds": 2.903
+    },
+    {
+      "condition": "AN09B002_tonic6_mAL",
+      "mal_silence": true,
+      "relay_types": [
+        "AN09B002"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_female",
+      "seed": 11,
+      "events": 1088,
+      "event_sha256": "ad0d3f475ef107204625c0846b406ba233beff7103cc4e18e1811133fbe9d1d9",
+      "P1_spikes": 18,
+      "broad_P1_spikes": 41,
+      "mAL_spikes": 47,
+      "network_spikes": 7078,
+      "active_neurons": 1717,
+      "seconds": 2.907
+    },
+    {
+      "condition": "AN09B002_tonic6_mAL",
+      "mal_silence": true,
+      "relay_types": [
+        "AN09B002"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_female",
+      "seed": 12,
+      "events": 1061,
+      "event_sha256": "27ca7f8d2cc7b845b25f762231b67a74478587ab3977a54c0ab41d520310a220",
+      "P1_spikes": 18,
+      "broad_P1_spikes": 45,
+      "mAL_spikes": 45,
+      "network_spikes": 7273,
+      "active_neurons": 1901,
+      "seconds": 2.888
+    },
+    {
+      "condition": "AN09B002_tonic6_mAL",
+      "mal_silence": true,
+      "relay_types": [
+        "AN09B002"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_female",
+      "seed": 13,
+      "events": 1111,
+      "event_sha256": "d0000165766304708a1914b57672ac1ffa2407705db1a671d1b0e832dede33a2",
+      "P1_spikes": 20,
+      "broad_P1_spikes": 51,
+      "mAL_spikes": 47,
+      "network_spikes": 7107,
+      "active_neurons": 1739,
+      "seconds": 2.881
+    },
+    {
+      "condition": "all4_tonic6",
+      "mal_silence": false,
+      "relay_types": [
+        "AN09B017e",
+        "AN09B017f",
+        "AN03A008",
+        "AN09B002"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_male",
+      "seed": 11,
+      "events": 1124,
+      "event_sha256": "2e42b9ae66fc046ea1a36a3f03298e2e59a4ba418aaa0d2d3037536255ccc7ec",
+      "P1_spikes": 0,
+      "broad_P1_spikes": 52,
+      "mAL_spikes": 109,
+      "network_spikes": 4906,
+      "active_neurons": 1281,
+      "seconds": 2.889
+    },
+    {
+      "condition": "all4_tonic6",
+      "mal_silence": false,
+      "relay_types": [
+        "AN09B017e",
+        "AN09B017f",
+        "AN03A008",
+        "AN09B002"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_male",
+      "seed": 12,
+      "events": 1073,
+      "event_sha256": "87f7b939216edeaf4a7465c67daaf4cd42a72b15148eae1c54cce7e0e99d9f08",
+      "P1_spikes": 0,
+      "broad_P1_spikes": 51,
+      "mAL_spikes": 106,
+      "network_spikes": 33535,
+      "active_neurons": 5319,
+      "seconds": 2.943
+    },
+    {
+      "condition": "all4_tonic6",
+      "mal_silence": false,
+      "relay_types": [
+        "AN09B017e",
+        "AN09B017f",
+        "AN03A008",
+        "AN09B002"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_male",
+      "seed": 13,
+      "events": 1060,
+      "event_sha256": "f5363f99ad44cf54d8b2ca3194f8e27dd417a8621b0dcb25eb17fe73533aba88",
+      "P1_spikes": 0,
+      "broad_P1_spikes": 51,
+      "mAL_spikes": 98,
+      "network_spikes": 7580,
+      "active_neurons": 2180,
+      "seconds": 2.908
+    },
+    {
+      "condition": "all4_tonic6",
+      "mal_silence": false,
+      "relay_types": [
+        "AN09B017e",
+        "AN09B017f",
+        "AN03A008",
+        "AN09B002"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_female",
+      "seed": 11,
+      "events": 1088,
+      "event_sha256": "ad0d3f475ef107204625c0846b406ba233beff7103cc4e18e1811133fbe9d1d9",
+      "P1_spikes": 7,
+      "broad_P1_spikes": 41,
+      "mAL_spikes": 53,
+      "network_spikes": 7790,
+      "active_neurons": 1968,
+      "seconds": 2.912
+    },
+    {
+      "condition": "all4_tonic6",
+      "mal_silence": false,
+      "relay_types": [
+        "AN09B017e",
+        "AN09B017f",
+        "AN03A008",
+        "AN09B002"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_female",
+      "seed": 12,
+      "events": 1061,
+      "event_sha256": "27ca7f8d2cc7b845b25f762231b67a74478587ab3977a54c0ab41d520310a220",
+      "P1_spikes": 8,
+      "broad_P1_spikes": 38,
+      "mAL_spikes": 52,
+      "network_spikes": 9098,
+      "active_neurons": 2207,
+      "seconds": 2.915
+    },
+    {
+      "condition": "all4_tonic6",
+      "mal_silence": false,
+      "relay_types": [
+        "AN09B017e",
+        "AN09B017f",
+        "AN03A008",
+        "AN09B002"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_female",
+      "seed": 13,
+      "events": 1111,
+      "event_sha256": "d0000165766304708a1914b57672ac1ffa2407705db1a671d1b0e832dede33a2",
+      "P1_spikes": 7,
+      "broad_P1_spikes": 37,
+      "mAL_spikes": 54,
+      "network_spikes": 7035,
+      "active_neurons": 1981,
+      "seconds": 2.888
+    },
+    {
+      "condition": "all4_tonic6_mAL",
+      "mal_silence": true,
+      "relay_types": [
+        "AN09B017e",
+        "AN09B017f",
+        "AN03A008",
+        "AN09B002"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_male",
+      "seed": 11,
+      "events": 1124,
+      "event_sha256": "2e42b9ae66fc046ea1a36a3f03298e2e59a4ba418aaa0d2d3037536255ccc7ec",
+      "P1_spikes": 4,
+      "broad_P1_spikes": 60,
+      "mAL_spikes": 150,
+      "network_spikes": 5908,
+      "active_neurons": 1397,
+      "seconds": 2.883
+    },
+    {
+      "condition": "all4_tonic6_mAL",
+      "mal_silence": true,
+      "relay_types": [
+        "AN09B017e",
+        "AN09B017f",
+        "AN03A008",
+        "AN09B002"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_male",
+      "seed": 12,
+      "events": 1073,
+      "event_sha256": "87f7b939216edeaf4a7465c67daaf4cd42a72b15148eae1c54cce7e0e99d9f08",
+      "P1_spikes": 2,
+      "broad_P1_spikes": 62,
+      "mAL_spikes": 144,
+      "network_spikes": 6116,
+      "active_neurons": 1351,
+      "seconds": 2.882
+    },
+    {
+      "condition": "all4_tonic6_mAL",
+      "mal_silence": true,
+      "relay_types": [
+        "AN09B017e",
+        "AN09B017f",
+        "AN03A008",
+        "AN09B002"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_male",
+      "seed": 13,
+      "events": 1060,
+      "event_sha256": "f5363f99ad44cf54d8b2ca3194f8e27dd417a8621b0dcb25eb17fe73533aba88",
+      "P1_spikes": 1,
+      "broad_P1_spikes": 59,
+      "mAL_spikes": 145,
+      "network_spikes": 6022,
+      "active_neurons": 1487,
+      "seconds": 2.901
+    },
+    {
+      "condition": "all4_tonic6_mAL",
+      "mal_silence": true,
+      "relay_types": [
+        "AN09B017e",
+        "AN09B017f",
+        "AN03A008",
+        "AN09B002"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_female",
+      "seed": 11,
+      "events": 1088,
+      "event_sha256": "ad0d3f475ef107204625c0846b406ba233beff7103cc4e18e1811133fbe9d1d9",
+      "P1_spikes": 16,
+      "broad_P1_spikes": 45,
+      "mAL_spikes": 55,
+      "network_spikes": 7038,
+      "active_neurons": 1840,
+      "seconds": 2.881
+    },
+    {
+      "condition": "all4_tonic6_mAL",
+      "mal_silence": true,
+      "relay_types": [
+        "AN09B017e",
+        "AN09B017f",
+        "AN03A008",
+        "AN09B002"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_female",
+      "seed": 12,
+      "events": 1061,
+      "event_sha256": "27ca7f8d2cc7b845b25f762231b67a74478587ab3977a54c0ab41d520310a220",
+      "P1_spikes": 19,
+      "broad_P1_spikes": 51,
+      "mAL_spikes": 51,
+      "network_spikes": 6762,
+      "active_neurons": 1720,
+      "seconds": 2.909
+    },
+    {
+      "condition": "all4_tonic6_mAL",
+      "mal_silence": true,
+      "relay_types": [
+        "AN09B017e",
+        "AN09B017f",
+        "AN03A008",
+        "AN09B002"
+      ],
+      "tonic_mV": 6.0,
+      "input": "candidate_female",
+      "seed": 13,
+      "events": 1111,
+      "event_sha256": "d0000165766304708a1914b57672ac1ffa2407705db1a671d1b0e832dede33a2",
+      "P1_spikes": 20,
+      "broad_P1_spikes": 53,
+      "mAL_spikes": 55,
+      "network_spikes": 7449,
+      "active_neurons": 1840,
+      "seconds": 2.913
+    }
+  ],
+  "summary": [
+    {
+      "condition": "mAL_silence",
+      "male_P1": [
+        4,
+        5,
+        1
+      ],
+      "female_P1": [
+        18,
+        18,
+        20
+      ],
+      "delta_male_vs_WT": [
+        4,
+        5,
+        1
+      ],
+      "delta_female_vs_WT": [
+        7,
+        10,
+        12
+      ],
+      "delta_male_vs_mAL": [
+        0,
+        0,
+        0
+      ],
+      "delta_female_vs_mAL": [
+        0,
+        0,
+        0
+      ],
+      "mean_preference": -0.7021143107777682,
+      "male_gt_female_all_seeds": false,
+      "female_unchanged_vs_mAL_all_seeds": true
+    },
+    {
+      "condition": "vAB3ef_tonic6",
+      "male_P1": [
+        0,
+        0,
+        0
+      ],
+      "female_P1": [
+        7,
+        8,
+        7
+      ],
+      "delta_male_vs_WT": [
+        0,
+        0,
+        0
+      ],
+      "delta_female_vs_WT": [
+        -4,
+        0,
+        -1
+      ],
+      "delta_male_vs_mAL": [
+        -4,
+        -5,
+        -1
+      ],
+      "delta_female_vs_mAL": [
+        -11,
+        -10,
+        -13
+      ],
+      "mean_preference": -0.9999999998630952,
+      "male_gt_female_all_seeds": false,
+      "female_unchanged_vs_mAL_all_seeds": false
+    },
+    {
+      "condition": "vAB3ef_tonic6_mAL",
+      "male_P1": [
+        3,
+        4,
+        3
+      ],
+      "female_P1": [
+        16,
+        19,
+        20
+      ],
+      "delta_male_vs_WT": [
+        3,
+        4,
+        3
+      ],
+      "delta_female_vs_WT": [
+        5,
+        11,
+        12
+      ],
+      "delta_male_vs_mAL": [
+        -1,
+        -1,
+        2
+      ],
+      "delta_female_vs_mAL": [
+        -2,
+        1,
+        0
+      ],
+      "mean_preference": -0.691838291348458,
+      "male_gt_female_all_seeds": false,
+      "female_unchanged_vs_mAL_all_seeds": false
+    },
+    {
+      "condition": "AN03A008_tonic6",
+      "male_P1": [
+        0,
+        0,
+        0
+      ],
+      "female_P1": [
+        11,
+        8,
+        8
+      ],
+      "delta_male_vs_WT": [
+        0,
+        0,
+        0
+      ],
+      "delta_female_vs_WT": [
+        0,
+        0,
+        0
+      ],
+      "delta_male_vs_mAL": [
+        -4,
+        -5,
+        -1
+      ],
+      "delta_female_vs_mAL": [
+        -7,
+        -10,
+        -12
+      ],
+      "mean_preference": -0.9999999998863637,
+      "male_gt_female_all_seeds": false,
+      "female_unchanged_vs_mAL_all_seeds": true
+    },
+    {
+      "condition": "AN03A008_tonic6_mAL",
+      "male_P1": [
+        1,
+        2,
+        1
+      ],
+      "female_P1": [
+        18,
+        18,
+        20
+      ],
+      "delta_male_vs_WT": [
+        1,
+        2,
+        1
+      ],
+      "delta_female_vs_WT": [
+        7,
+        10,
+        12
+      ],
+      "delta_male_vs_mAL": [
+        -3,
+        -3,
+        0
+      ],
+      "delta_female_vs_mAL": [
+        0,
+        0,
+        0
+      ],
+      "mean_preference": -0.8664995822456643,
+      "male_gt_female_all_seeds": false,
+      "female_unchanged_vs_mAL_all_seeds": true
+    },
+    {
+      "condition": "AN09B002_tonic6",
+      "male_P1": [
+        0,
+        0,
+        0
+      ],
+      "female_P1": [
+        11,
+        8,
+        8
+      ],
+      "delta_male_vs_WT": [
+        0,
+        0,
+        0
+      ],
+      "delta_female_vs_WT": [
+        0,
+        0,
+        0
+      ],
+      "delta_male_vs_mAL": [
+        -4,
+        -5,
+        -1
+      ],
+      "delta_female_vs_mAL": [
+        -7,
+        -10,
+        -12
+      ],
+      "mean_preference": -0.9999999998863637,
+      "male_gt_female_all_seeds": false,
+      "female_unchanged_vs_mAL_all_seeds": true
+    },
+    {
+      "condition": "AN09B002_tonic6_mAL",
+      "male_P1": [
+        4,
+        5,
+        1
+      ],
+      "female_P1": [
+        18,
+        18,
+        20
+      ],
+      "delta_male_vs_WT": [
+        4,
+        5,
+        1
+      ],
+      "delta_female_vs_WT": [
+        7,
+        10,
+        12
+      ],
+      "delta_male_vs_mAL": [
+        0,
+        0,
+        0
+      ],
+      "delta_female_vs_mAL": [
+        0,
+        0,
+        0
+      ],
+      "mean_preference": -0.7021143107777682,
+      "male_gt_female_all_seeds": false,
+      "female_unchanged_vs_mAL_all_seeds": true
+    },
+    {
+      "condition": "all4_tonic6",
+      "male_P1": [
+        0,
+        0,
+        0
+      ],
+      "female_P1": [
+        7,
+        8,
+        7
+      ],
+      "delta_male_vs_WT": [
+        0,
+        0,
+        0
+      ],
+      "delta_female_vs_WT": [
+        -4,
+        0,
+        -1
+      ],
+      "delta_male_vs_mAL": [
+        -4,
+        -5,
+        -1
+      ],
+      "delta_female_vs_mAL": [
+        -11,
+        -10,
+        -13
+      ],
+      "mean_preference": -0.9999999998630952,
+      "male_gt_female_all_seeds": false,
+      "female_unchanged_vs_mAL_all_seeds": false
+    },
+    {
+      "condition": "all4_tonic6_mAL",
+      "male_P1": [
+        4,
+        2,
+        1
+      ],
+      "female_P1": [
+        16,
+        19,
+        20
+      ],
+      "delta_male_vs_WT": [
+        4,
+        2,
+        1
+      ],
+      "delta_female_vs_WT": [
+        5,
+        11,
+        12
+      ],
+      "delta_male_vs_mAL": [
+        0,
+        -3,
+        0
+      ],
+      "delta_female_vs_mAL": [
+        -2,
+        1,
+        0
+      ],
+      "mean_preference": -0.7714285713913606,
+      "male_gt_female_all_seeds": false,
+      "female_unchanged_vs_mAL_all_seeds": false
+    }
+  ],
+  "phenotype_C_conditions": [],
+  "seconds": 184.49887258419767
+}

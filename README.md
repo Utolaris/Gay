@@ -15,6 +15,9 @@ is in [MECHANISM_SEARCH.md](MECHANISM_SEARCH.md).
 E1 brake lesion map (female intact): [E1_PROTOCOL.md](E1_PROTOCOL.md),
 [E1_RESULTS.md](E1_RESULTS.md), `e1-results.json`.
 
+E2 male excitatory relay amplification: [E2_PROTOCOL.md](E2_PROTOCOL.md),
+[E2_RESULTS.md](E2_RESULTS.md), `e2-results.json`.
+
 ## Setup
 
 ```sh
