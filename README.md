@@ -1,135 +1,73 @@
-# Gay
+# Gay — MaleCNS courtship-circuit orientation package
 
-Independent Intervention API for male-biased courtship-circuit experiments on
-the full MaleCNS v1.0 bounded LIF network (166,606 neurons).
+Bounded LIF + MaleCNS v1.0 connectome experiments on male- vs female-cue
+drive to P1/pC1. Preference score `(M−F)/(M+F+ε)` is a **modeled response
+index**, not behavior.
 
-Pre-registered baselines (WT vs mAL output silence) reproduce upstream
-follow-up P1 counts. A post-hoc search for conditions that make male P1 >
-female P1 is documented in [EXPLORATORY.md](EXPLORATORY.md); it does not
-replace those baselines.
+**Script map:** [SCRIPTS.md](SCRIPTS.md) · **Architecture synthesis:**
+[ARCHITECTURE_SELECTIVITY.md](ARCHITECTURE_SELECTIVITY.md)
 
-Mechanism-search audit (model incompleteness, signed male→P1 pathways,
-phenotype A/B/C split, next experiments that keep the female pathway intact)
-is in [MECHANISM_SEARCH.md](MECHANISM_SEARCH.md).
+---
 
-E1 brake lesion map (female intact): [E1_PROTOCOL.md](E1_PROTOCOL.md),
-[E1_RESULTS.md](E1_RESULTS.md), `e1-results.json`.
+## Final task goals
 
-E2 male excitatory relay amplification: [E2_PROTOCOL.md](E2_PROTOCOL.md),
-[E2_RESULTS.md](E2_RESULTS.md), `e2-results.json`.
+1. **Locate** where male sensory drive is gated onto the courtship readout
+   (delivered currents onto P1, not source spike counts).
+2. **Separate** anatomical fact, model assumption, and biological hypothesis
+   — especially AN09B017b/c sign.
+3. **Test** female-intact local mechanisms (brake relief, excitatory relay,
+   modulatory gates, reward plasticity) without cutting the female path or
+   driving P1 directly.
+4. **Assess robustness** of any male-release cut-set to transmitter/sign
+   uncertainty on b/c.
+5. **Synthesize** whether sex selectivity = mAL male-specific I + AN09B017c
+   + FLA female-biased E, and what is still unproven in vivo.
 
-E3–E8 mechanism grid: [E3_E8_PROTOCOL.md](E3_E8_PROTOCOL.md),
-[E3_E8_RESULTS.md](E3_E8_RESULTS.md), `e3-e8-results.json`.
+**Non-goals:** expanding parameter scans after seeing outcomes; claiming
+mate preference; retuning LIF constants; editing `experiment/` upstream.
 
-LgLG6 vs LgLG5 signed pathway decomposition (why female effective drive is
-stronger): [LGLG_PATHWAY_REPORT.md](LGLG_PATHWAY_REPORT.md).
+---
 
-S-block: AN09B017b/c sign evidence, hop-3 routing roles, and female-intact
-local interventions: [BC_HOP3_PROTOCOL.md](BC_HOP3_PROTOCOL.md),
-[BC_HOP3_REPORT.md](BC_HOP3_REPORT.md), `bc-hop3-evidence.json`,
-`bc-hop3-results.json`.
+## Known conclusions (in-model)
 
-Sign adjudication (is b/c output excitatory or inhibitory?):
-[BC_SIGN_ADJUDICATION.md](BC_SIGN_ADJUDICATION.md).
+| # | Claim | Evidence |
+|---|---|---|
+| 1 | WT male P1 = 0; female = 11,8,8 (seeds 11–13) | `RESULTS.md` |
+| 2 | Male signal reaches LgLG6 and AN09B017; dies at P1 E/I veto | `MALE_SIGNAL_AUTOPSY.md` |
+| 3 | Last-hop male-specific I: **mAL_m8** (sign-robust), then c/m2b/VES022 | `P1_CURRENT_REPORT.md`, `SIGN_ROBUST_REPORT.md` |
+| 4 | Last-hop female-biased E: **FLA001m / FLA003m** | same |
+| 5 | AN09B017c loading is male-biased; **inhibitory gate only if c=−1** | `BC_SIGN_ADJUDICATION.md`, `SIGN_ROBUST_REPORT.md` |
+| 6 | b/c=+1 ⇒ WT already male>female (phenotype C) | `BC_HOP3_REPORT.md` |
+| 7 | No all-sign-map female-intact cut-set without c | `SIGN_ROBUST_REPORT.md` |
+| 8 | No hop-1 male∩PAM on courtship core; LgLG→KC = 0 | `CONVERGENCE_REPORT.md` |
+| 9 | MB reward learning cannot form male bias | `REWARD_RESULTS.md` |
+| 10 | OA / VES022 / SIP106m drive does not release male P1 | `OA_GATE_RESULTS.md` |
+| 11 | Architecture: distributed last-hop E/I code + fragile c hinge | `ARCHITECTURE_SELECTIVITY.md` |
 
-Interactive Three.js viewer of b/c stimulation (Bun + Vite):
-[bc-viz/](bc-viz/) — `export_bc_viz.py` writes `bc-viz/public/data/trial.json`.
-
-DA-gated KC→MBON reward learning (male cue + PAM, three-phase test):
-[REWARD_PROTOCOL.md](REWARD_PROTOCOL.md), [REWARD_RESULTS.md](REWARD_RESULTS.md),
-`reward-results.json`.
-
-Male sensory × reward/modulatory convergence onto courtship (static anatomy):
-[CONVERGENCE_REPORT.md](CONVERGENCE_REPORT.md), `convergence-report.json`.
-
-OA / VES022 / SIP106m gate test on male→P1:
-[OA_GATE_PROTOCOL.md](OA_GATE_PROTOCOL.md), [OA_GATE_RESULTS.md](OA_GATE_RESULTS.md),
-`oa-gate-results.json`.
-
-Where the male signal dies (pathway spike autopsy):
-[MALE_SIGNAL_AUTOPSY.md](MALE_SIGNAL_AUTOPSY.md), `male-signal-autopsy.json`.
-
-P1 delivered-current autopsy and minimal inhibitory cut-set:
-[P1_CURRENT_PROTOCOL.md](P1_CURRENT_PROTOCOL.md),
-[P1_CURRENT_REPORT.md](P1_CURRENT_REPORT.md), `p1-current-results.json`.
-
-Sign-robustness of the male-specific P1 gate (b/c = −1 / +1 / 0):
-[SIGN_ROBUST_PROTOCOL.md](SIGN_ROBUST_PROTOCOL.md),
-[SIGN_ROBUST_REPORT.md](SIGN_ROBUST_REPORT.md), `sign-robust-results.json`.
-
-Architecture synthesis (mAL + AN09B017c + FLA as sex-selectivity code):
-[ARCHITECTURE_SELECTIVITY.md](ARCHITECTURE_SELECTIVITY.md).
+---
 
 ## Setup
 
 ```sh
 uv sync
-```
-
-### Prepare the connectome graph
-
-Download public MaleCNS v1.0 tables (~1.1 GB), verify checksums, and build the
-classified-neuron graph into `.experiment-data/` (gitignored):
-
-```sh
-uv run python prepare_data.py .experiment-data
-```
-
-Requires several GB of disk and memory. Source data: MaleCNS v1.0, CC BY 4.0.
-
-## Pre-registered baselines
-
-```sh
+uv run python prepare_data.py .experiment-data   # MaleCNS v1.0, several GB
 uv run python run_baselines.py .experiment-data
-# optional: --workers 1|N  (default auto, capped at 4 on this workload)
-```
-
-Writes `baseline-results.json`:
-
-- P1/pC1 spikes and Hz
-- broad P1-related / mAL / global activity
-- matched event hashes
-- preference score `(M−F)/(M+F+ε)`
-
-### Trial-level parallelism
-
-`orientation/parallel.py` runs independent (intervention × input × seed) trials
-in a process pool. The single-trial Numba kernel and seed semantics are
-unchanged. Graph CSR arrays are exported once to
-`.experiment-data/graph_mmap/*.npy` and opened `mmap_mode='r'` in workers.
-
-```sh
-uv run python regress_parallel.py .experiment-data --workers 4  # must PASS
-uv run python benchmark_parallel.py .experiment-data            # 1/2/4/6/8
-```
-
-See [PERFORMANCE.md](PERFORMANCE.md).
-
-## Tests
-
-```sh
 uv run pytest -q
 ```
 
-## Intervention API
+Intervention API: `orientation/` (`output_silence`, `output_gain`,
+activation). Seeds 11–13. Do not retune frozen LIF constants in
+`orientation/simulate.py`.
 
-```python
-from orientation import (
-    none, output_silence, output_gain, activate_tonic, activate_poisson,
-    load_prepared, run_trial, response_metrics, preference_score,
-)
+---
 
-net = load_prepared(".experiment-data")
-silence = output_silence(net.groups["mAL"])
-result = run_trial(net, "candidate_male", seed=11, intervention=silence)
-metrics = response_metrics(result, net, silence)
+## Evidence hierarchy
+
+```text
+Anatomical (MaleCNS edges, types, NT consensus)
+    → Model assumption (Glu→−1, vAB3e/f +1, uniform Poisson)
+        → Delivered-current LIF (this package)
+            → Behavioral / in vivo  (NOT tested here)
 ```
 
-Kinds:
-
-- `output_silence` — block outgoing transmission (cells may still spike)
-- `output_gain` — multiply outgoing weights by a bounded gain in `[0, max_gain]`
-- `activation` — tonic voltage and/or class Poisson drive (not applied to P1 in baselines)
-
-See [PROTOCOL.md](PROTOCOL.md) for the frozen baseline design and
-[RESULTS.md](RESULTS.md) for measured outcomes.
+Anything about mate choice requires experiments outside this repo.

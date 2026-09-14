@@ -6,3 +6,8 @@ __pycache__/
 .experiment-data/
 *.egg-info/
 .DS_Store
+.playwright-cli/
+bc-viz/node_modules/
+bc-viz/dist/
+bc-viz/output/
+
