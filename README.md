@@ -35,6 +35,10 @@ Sign adjudication (is b/c output excitatory or inhibitory?):
 Interactive Three.js viewer of b/c stimulation (Bun + Vite):
 [bc-viz/](bc-viz/) — `export_bc_viz.py` writes `bc-viz/public/data/trial.json`.
 
+DA-gated KC→MBON reward learning (male cue + PAM, three-phase test):
+[REWARD_PROTOCOL.md](REWARD_PROTOCOL.md), [REWARD_RESULTS.md](REWARD_RESULTS.md),
+`reward-results.json`.
+
 ## Setup
 
 ```sh
