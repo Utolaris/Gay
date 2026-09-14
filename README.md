@@ -46,6 +46,9 @@ OA / VES022 / SIP106m gate test on male→P1:
 [OA_GATE_PROTOCOL.md](OA_GATE_PROTOCOL.md), [OA_GATE_RESULTS.md](OA_GATE_RESULTS.md),
 `oa-gate-results.json`.
 
+Where the male signal dies (pathway spike autopsy):
+[MALE_SIGNAL_AUTOPSY.md](MALE_SIGNAL_AUTOPSY.md), `male-signal-autopsy.json`.
+
 ## Setup
 
 ```sh
