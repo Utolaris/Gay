@@ -57,6 +57,9 @@ Sign-robustness of the male-specific P1 gate (b/c = −1 / +1 / 0):
 [SIGN_ROBUST_PROTOCOL.md](SIGN_ROBUST_PROTOCOL.md),
 [SIGN_ROBUST_REPORT.md](SIGN_ROBUST_REPORT.md), `sign-robust-results.json`.
 
+Architecture synthesis (mAL + AN09B017c + FLA as sex-selectivity code):
+[ARCHITECTURE_SELECTIVITY.md](ARCHITECTURE_SELECTIVITY.md).
+
 ## Setup
 
 ```sh
