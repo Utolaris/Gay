@@ -39,6 +39,9 @@ DA-gated KC→MBON reward learning (male cue + PAM, three-phase test):
 [REWARD_PROTOCOL.md](REWARD_PROTOCOL.md), [REWARD_RESULTS.md](REWARD_RESULTS.md),
 `reward-results.json`.
 
+Male sensory × reward/modulatory convergence onto courtship (static anatomy):
+[CONVERGENCE_REPORT.md](CONVERGENCE_REPORT.md), `convergence-report.json`.
+
 ## Setup
 
 ```sh
