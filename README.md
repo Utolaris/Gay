@@ -49,6 +49,10 @@ OA / VES022 / SIP106m gate test on male→P1:
 Where the male signal dies (pathway spike autopsy):
 [MALE_SIGNAL_AUTOPSY.md](MALE_SIGNAL_AUTOPSY.md), `male-signal-autopsy.json`.
 
+P1 delivered-current autopsy and minimal inhibitory cut-set:
+[P1_CURRENT_PROTOCOL.md](P1_CURRENT_PROTOCOL.md),
+[P1_CURRENT_REPORT.md](P1_CURRENT_REPORT.md), `p1-current-results.json`.
+
 ## Setup
 
 ```sh
