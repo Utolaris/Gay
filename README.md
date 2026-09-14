@@ -53,6 +53,10 @@ P1 delivered-current autopsy and minimal inhibitory cut-set:
 [P1_CURRENT_PROTOCOL.md](P1_CURRENT_PROTOCOL.md),
 [P1_CURRENT_REPORT.md](P1_CURRENT_REPORT.md), `p1-current-results.json`.
 
+Sign-robustness of the male-specific P1 gate (b/c = −1 / +1 / 0):
+[SIGN_ROBUST_PROTOCOL.md](SIGN_ROBUST_PROTOCOL.md),
+[SIGN_ROBUST_REPORT.md](SIGN_ROBUST_REPORT.md), `sign-robust-results.json`.
+
 ## Setup
 
 ```sh
